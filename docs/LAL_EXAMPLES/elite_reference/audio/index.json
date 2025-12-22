@@ -1,0 +1,79 @@
+{
+    "version": "1.0",
+    "categories": {
+        "confirmations": [
+            {
+                "id": "confirm_landing_gear_down",
+                "file": "landing_gear_down.wav",
+                "duration_ms": 800,
+                "tags": [
+                    "elite",
+                    "ship",
+                    "landing"
+                ]
+            },
+            {
+                "id": "confirm_landing_gear_up",
+                "file": "landing_gear_up.wav",
+                "duration_ms": 800,
+                "tags": [
+                    "elite",
+                    "ship",
+                    "landing"
+                ]
+            },
+            {
+                "id": "confirm_hardpoints_deployed",
+                "file": "hardpoints_deployed.wav",
+                "duration_ms": 1000,
+                "tags": [
+                    "elite",
+                    "ship",
+                    "combat"
+                ]
+            }
+        ],
+        "alerts": [
+            {
+                "id": "alert_shields_down",
+                "file": "shields_down.wav",
+                "duration_ms": 1200,
+                "tags": [
+                    "elite",
+                    "combat",
+                    "warning"
+                ]
+            },
+            {
+                "id": "alert_hull_damage",
+                "file": "hull_damage.wav",
+                "duration_ms": 1000,
+                "tags": [
+                    "elite",
+                    "combat",
+                    "warning"
+                ]
+            }
+        ],
+        "responses": [
+            {
+                "id": "response_affirmative",
+                "file": "affirmative.wav",
+                "duration_ms": 600,
+                "tags": [
+                    "generic",
+                    "acknowledgement"
+                ]
+            },
+            {
+                "id": "response_negative",
+                "file": "negative.wav",
+                "duration_ms": 600,
+                "tags": [
+                    "generic",
+                    "acknowledgement"
+                ]
+            }
+        ]
+    }
+}

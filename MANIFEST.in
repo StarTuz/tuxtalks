@@ -1,0 +1,3 @@
+recursive-include theme *
+recursive-include data *
+recursive-include locale *

@@ -1,0 +1,44 @@
+{
+    "pack_name": "Elite Exploration Macros",
+    "game_type": "EliteDangerous",
+    "macros": {
+        "scan_system": {
+            "triggers": [
+                "scan system",
+                "honk"
+            ],
+            "description": "FSS Discovery Scanner",
+            "steps": [
+                {
+                    "action": "FSS Mode",
+                    "delay": 100
+                },
+                {
+                    "audio_feedback": "response_affirmative",
+                    "delay": 500
+                }
+            ]
+        },
+        "deployment_sequence": {
+            "triggers": [
+                "deploy",
+                "landing sequence"
+            ],
+            "description": "Deploy landing gear and retract hardpoints",
+            "steps": [
+                {
+                    "action": "Retract Hardpoints",
+                    "delay": 100
+                },
+                {
+                    "action": "Deploy Landing Gear",
+                    "delay": 100
+                },
+                {
+                    "audio_feedback": "confirm_landing_gear_down",
+                    "delay": 800
+                }
+            ]
+        }
+    }
+}

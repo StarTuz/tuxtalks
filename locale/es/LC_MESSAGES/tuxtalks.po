@@ -1,0 +1,1172 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr "Traducción"
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-12-10 20:33-0800\n"
+"PO-Revision-Date: 2025-12-10 19:19-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: launcher.py:55
+msgid "🐧"
+msgstr "🐧"
+
+#: launcher.py:64
+msgid "TuxTalks"
+msgstr "TuxTalks"
+
+#: launcher.py:65
+msgid " Settings"
+msgstr "Configuración"
+
+#: launcher.py:68
+msgid "Advanced Voice Control for Linux"
+msgstr "Control de Voz Avanzado para Linux"
+
+#: launcher.py:73
+msgid "Theme:"
+msgstr ""
+
+#: launcher.py:112
+msgid "Scale:"
+msgstr ""
+
+#: launcher.py:122
+msgid "Start Assistant"
+msgstr "Iniciar Asistente"
+
+#: launcher.py:123
+msgid "Stop"
+msgstr "Detener"
+
+#: launcher.py:125
+msgid "Exit"
+msgstr "Salir"
+
+#: launcher.py:126
+msgid "Save Config"
+msgstr "Guardar Configuración"
+
+#: launcher.py:134
+msgid "General"
+msgstr "General"
+
+#: launcher.py:143
+msgid "Voice"
+msgstr "Voz"
+
+#: launcher.py:148
+msgid "Games"
+msgstr "Juegos"
+
+#: launcher.py:155
+msgid "Content Packs"
+msgstr "Paquetes de Contenido"
+
+#: launcher.py:161
+msgid "Speech Engines"
+msgstr "Motores de Voz"
+
+#: launcher.py:169
+msgid "Input"
+msgstr "Entrada"
+
+#: launcher.py:174
+msgid "Vocabulary"
+msgstr "Vocabulario"
+
+#: launcher.py:179
+msgid "Help"
+msgstr "Ayuda"
+
+#: launcher.py:192
+msgid "Wake Word Settings"
+msgstr ""
+
+#: launcher.py:195
+msgid "Wake Word:"
+msgstr ""
+
+#: launcher.py:201
+msgid "Speech Recognition (Vosk)"
+msgstr ""
+
+#: launcher.py:207
+msgid "Active Model:"
+msgstr ""
+
+#: launcher.py:221
+msgid "Browse Folder"
+msgstr ""
+
+#: launcher.py:222 launcher.py:259
+msgid "Download from URL"
+msgstr ""
+
+#: launcher.py:223 launcher_vocabulary_tab.py:85
+msgid "Delete Selected"
+msgstr ""
+
+#: launcher.py:230
+msgid "Text-to-Speech (Piper)"
+msgstr ""
+
+#: launcher.py:236
+msgid "Active Voice:"
+msgstr ""
+
+#: launcher.py:253
+msgid "Delete Voice"
+msgstr ""
+
+#: launcher.py:256
+msgid "Import New Voice"
+msgstr ""
+
+#: launcher.py:260
+msgid "Load from File (.onnx)"
+msgstr ""
+
+#: launcher.py:324 launcher.py:335 launcher_corrections_tab.py:198
+#: launcher_games_tab.py:1453 launcher_games_tab.py:1464
+#: launcher_games_tab.py:1488 launcher_games_tab.py:1617
+#: launcher_games_tab.py:1628 launcher_games_tab.py:2005
+#: launcher_vocabulary_tab.py:24
+msgid "Info"
+msgstr "Información"
+
+#: launcher.py:324
+msgid "Scaling saved. Restart required for full effect."
+msgstr ""
+
+#: launcher.py:335
+msgid "TuxTalks is already running."
+msgstr "TuxTalks ya está en ejecución."
+
+#: launcher.py:339
+msgid "Unsaved Changes"
+msgstr "Cambios No Guardados"
+
+#: launcher.py:339
+msgid "You have unsaved changes. Save before starting?"
+msgstr "Tienes cambios sin guardar. ¿Guardar antes de iniciar? "
+
+#: launcher.py:379
+msgid "No Terminal Found"
+msgstr ""
+
+#: launcher.py:379
+msgid ""
+"Could not find a terminal?\n"
+"Run in background?"
+msgstr ""
+
+#: launcher.py:388
+msgid "Stopped"
+msgstr "Detenido"
+
+#: launcher.py:388
+msgid "Assistant stopped."
+msgstr "Asistente detenido."
+
+#: launcher.py:411 launcher_corrections_tab.py:292 launcher_speech_tab.py:126
+msgid "Saved"
+msgstr "Guardado"
+
+#: launcher.py:411
+msgid "Configuration saved."
+msgstr "Configuración guardada."
+
+#: launcher.py:428
+msgid "Downloading"
+msgstr "Descargando"
+
+#: launcher.py:428
+msgid "Downloading in background..."
+msgstr ""
+
+#: launcher.py:444 launcher.py:454 launcher_corrections_tab.py:283
+msgid "Success"
+msgstr "Éxito"
+
+#: launcher.py:444
+msgid "Deleted."
+msgstr ""
+
+#: launcher.py:446 launcher.py:456 launcher.py:471 launcher.py:490
+#: launcher_corrections_tab.py:231 launcher_games_tab.py:505
+#: launcher_games_tab.py:664 launcher_games_tab.py:1480
+#: launcher_games_tab.py:1524 launcher_games_tab.py:1636
+#: launcher_games_tab.py:1852 launcher_games_tab.py:1908
+#: launcher_games_tab.py:1953 launcher_games_tab.py:1976
+#: launcher_games_tab.py:1988 launcher_games_tab.py:2442
+#: launcher_player_tab.py:155
+msgid "Error"
+msgstr "Error"
+
+#: launcher.py:446
+msgid "Failed."
+msgstr ""
+
+#: launcher.py:454
+msgid "Deleted"
+msgstr ""
+
+#: launcher.py:456
+msgid "Failed (is it built-in?)"
+msgstr ""
+
+#: launcher.py:471
+msgid "Failed to install voice."
+msgstr ""
+
+#: launcher.py:474
+msgid "Importing"
+msgstr "Importando"
+
+#: launcher.py:474
+msgid "Downloading voice in background..."
+msgstr ""
+
+#: launcher.py:490
+msgid "Failed to import voice."
+msgstr ""
+
+#: launcher_corrections_tab.py:15
+msgid "Corrections"
+msgstr "Correcciones"
+
+#: launcher_corrections_tab.py:29 launcher_games_tab.py:973
+msgid "Add"
+msgstr "Agregar"
+
+#: launcher_corrections_tab.py:30 launcher_games_tab.py:950
+#: launcher_games_tab.py:974
+msgid "Edit"
+msgstr "Editar"
+
+#: launcher_corrections_tab.py:31 launcher_corrections_tab.py:90
+msgid "Delete"
+msgstr "Eliminar"
+
+#: launcher_corrections_tab.py:34
+msgid "Voice Corrections (Heard -> Meant)"
+msgstr ""
+
+#: launcher_corrections_tab.py:39
+msgid "When I hear..."
+msgstr ""
+
+#: launcher_corrections_tab.py:40
+msgid "I should understand..."
+msgstr ""
+
+#: launcher_corrections_tab.py:54
+msgid "Test & Train"
+msgstr ""
+
+#: launcher_corrections_tab.py:60 launcher_corrections_tab.py:256
+#: launcher_corrections_tab.py:262 launcher_corrections_tab.py:281
+msgid "🎤 Record"
+msgstr ""
+
+#: launcher_corrections_tab.py:64
+msgid "Dur:"
+msgstr ""
+
+#: launcher_corrections_tab.py:73
+msgid "Add as Correction"
+msgstr ""
+
+#: launcher_corrections_tab.py:78
+msgid "Targeted Train"
+msgstr ""
+
+#: launcher_corrections_tab.py:79
+msgid "Basic"
+msgstr ""
+
+#: launcher_corrections_tab.py:80
+msgid "Advanced"
+msgstr ""
+
+#: launcher_corrections_tab.py:83
+msgid "Recent Ignored/Missed Commands"
+msgstr ""
+
+#: launcher_corrections_tab.py:89
+msgid "Use Selected"
+msgstr ""
+
+#: launcher_corrections_tab.py:91 launcher_vocabulary_tab.py:86
+msgid "Clear All"
+msgstr ""
+
+#: launcher_corrections_tab.py:92 launcher_games_tab.py:801
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: launcher_corrections_tab.py:136
+msgid "Confirm Delete"
+msgstr ""
+
+#: launcher_corrections_tab.py:136
+msgid "Delete selected correction?"
+msgstr "¿Eliminar corrección seleccionada?"
+
+#: launcher_corrections_tab.py:198
+msgid "Test a phrase first."
+msgstr "Prueba una frase primero."
+
+#: launcher_corrections_tab.py:231
+msgid "Model not found. Please check General settings."
+msgstr ""
+
+#: launcher_corrections_tab.py:283
+msgid "Perfect match! No training needed."
+msgstr "¡Coincidencia perfecta! No se necesita entrenamiento."
+
+#: launcher_corrections_tab.py:292
+msgid "Correction added."
+msgstr "Corrección agregada."
+
+#: launcher_games_tab.py:29
+msgid "Press the key combination on your keyboard:"
+msgstr ""
+
+#: launcher_games_tab.py:35
+msgid "(Example: Ctrl + Alt + H)"
+msgstr ""
+
+#: launcher_games_tab.py:40 launcher_games_tab.py:2078
+#: launcher_player_tab.py:201
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: launcher_games_tab.py:41
+msgid "Clear"
+msgstr "Limpiar"
+
+#: launcher_games_tab.py:134
+msgid "Step 1: Select Running Game Process"
+msgstr ""
+
+#: launcher_games_tab.py:140
+msgid "PID"
+msgstr "PID"
+
+#: launcher_games_tab.py:141
+msgid "Process Name"
+msgstr "Nombre del Proceso"
+
+#: launcher_games_tab.py:142
+msgid "Command Line / Path"
+msgstr ""
+
+#: launcher_games_tab.py:162
+msgid "🔄 Scan Processes"
+msgstr ""
+
+#: launcher_games_tab.py:165
+msgid "Step 2: Configuration"
+msgstr ""
+
+#: launcher_games_tab.py:172
+msgid "Game Type:"
+msgstr ""
+
+#: launcher_games_tab.py:180
+msgid "Game Name:"
+msgstr ""
+
+#: launcher_games_tab.py:185
+msgid "Process Name:"
+msgstr ""
+
+#: launcher_games_tab.py:190
+msgid "Binding Profile Name:"
+msgstr ""
+
+#: launcher_games_tab.py:196 launcher_games_tab.py:858
+msgid "Runtime Environment:"
+msgstr ""
+
+#: launcher_games_tab.py:205
+msgid "Bindings Path:"
+msgstr ""
+
+#: launcher_games_tab.py:212 launcher_games_tab.py:640
+#: launcher_games_tab.py:884 launcher_player_tab.py:143
+msgid "Browse"
+msgstr "Examinar"
+
+#: launcher_games_tab.py:213
+msgid "🔍 Scan"
+msgstr ""
+
+#: launcher_games_tab.py:219
+msgid "💾 Add Game Profile"
+msgstr ""
+
+#: launcher_games_tab.py:326
+msgid "Scan Results"
+msgstr ""
+
+#: launcher_games_tab.py:326
+msgid "No standard binding files found for this game type."
+msgstr ""
+
+#: launcher_games_tab.py:505
+msgid "Process Name required."
+msgstr "Nombre de proceso requerido."
+
+#: launcher_games_tab.py:629
+msgid "Profile Name (Variant):"
+msgstr ""
+
+#: launcher_games_tab.py:634
+msgid "Bindings File Path (Optional):"
+msgstr ""
+
+#: launcher_games_tab.py:643
+msgid "Create Profile"
+msgstr ""
+
+#: launcher_games_tab.py:664
+msgid "Profile Name required."
+msgstr ""
+
+#: launcher_games_tab.py:717
+msgid "Game Integration Status"
+msgstr ""
+
+#: launcher_games_tab.py:724
+msgid "Game:"
+msgstr ""
+
+#: launcher_games_tab.py:730
+msgid "Binds:"
+msgstr ""
+
+#: launcher_games_tab.py:741
+msgid "Macro Profile:"
+msgstr ""
+
+#: launcher_games_tab.py:753
+msgid "➕"
+msgstr "➕"
+
+#: launcher_games_tab.py:760
+msgid "✏"
+msgstr "✏"
+
+#: launcher_games_tab.py:767
+msgid "🗑"
+msgstr "🗑"
+
+#: launcher_games_tab.py:781
+msgid "Runtime Status:"
+msgstr ""
+
+#: launcher_games_tab.py:787
+msgid "Enable Game Integration"
+msgstr "Habilitar Integración de Juegos"
+
+#: launcher_games_tab.py:795
+msgid "Filter:"
+msgstr ""
+
+#: launcher_games_tab.py:802
+msgid "Restore"
+msgstr "Restaurar"
+
+#: launcher_games_tab.py:803
+msgid "Backup"
+msgstr "Copia de seguridad"
+
+#: launcher_games_tab.py:809
+msgid "Add Game"
+msgstr ""
+
+#: launcher_games_tab.py:810 launcher_games_tab.py:1510
+msgid "Edit Game"
+msgstr ""
+
+#: launcher_games_tab.py:811
+msgid "Remove Game"
+msgstr ""
+
+#: launcher_games_tab.py:813
+msgid "Add Bind"
+msgstr ""
+
+#: launcher_games_tab.py:814
+msgid "Edit Bind"
+msgstr ""
+
+#: launcher_games_tab.py:815
+msgid "Remove Bind"
+msgstr ""
+
+#: launcher_games_tab.py:816
+msgid "Default Binds"
+msgstr ""
+
+#: launcher_games_tab.py:828
+msgid "Bindings"
+msgstr "Asignaciones"
+
+#: launcher_games_tab.py:835
+msgid "Profile Settings"
+msgstr ""
+
+#: launcher_games_tab.py:840
+msgid "Profile Configuration"
+msgstr ""
+
+#: launcher_games_tab.py:847
+msgid "Process Name (e.g. X4.exe):"
+msgstr ""
+
+#: launcher_games_tab.py:852
+msgid "Bindings File Path:"
+msgstr ""
+
+#: launcher_games_tab.py:855
+msgid " Browse "
+msgstr "Examinar"
+
+#: launcher_games_tab.py:864
+msgid "Save Settings"
+msgstr ""
+
+#: launcher_games_tab.py:867
+msgid "External Audio Assets"
+msgstr ""
+
+#: launcher_games_tab.py:872
+msgid ""
+"I confirm I own the audio files in this folder and will not redistribute "
+"them without permission."
+msgstr ""
+
+#: launcher_games_tab.py:879
+msgid "Audio Directory:"
+msgstr ""
+
+#: launcher_games_tab.py:891
+msgid "X4 Foundations Controller Sync"
+msgstr ""
+
+#: launcher_games_tab.py:893
+msgid ""
+"Sync Controller Profiles (inputmap.xml) between Proton and Native Linux "
+"versions."
+msgstr ""
+
+#: launcher_games_tab.py:894
+msgid "Note: GOG versions are not supported for sync."
+msgstr ""
+
+#: launcher_games_tab.py:899
+msgid "Sync: Proton ➜ Native"
+msgstr ""
+
+#: launcher_games_tab.py:900
+msgid "Sync: Native ➜ Proton"
+msgstr ""
+
+#: launcher_games_tab.py:903
+msgid "Active Profile Bindings"
+msgstr ""
+
+#: launcher_games_tab.py:910
+msgid "Voice Command"
+msgstr "Comando de Voz"
+
+#: launcher_games_tab.py:911
+msgid "Game Action"
+msgstr "Acción del Juego"
+
+#: launcher_games_tab.py:912
+msgid "Mapped Key"
+msgstr "Tecla Asignada"
+
+#: launcher_games_tab.py:923
+msgid "Modify Trigger"
+msgstr ""
+
+#: launcher_games_tab.py:924
+msgid "Clear Trigger"
+msgstr ""
+
+#: launcher_games_tab.py:936
+msgid "Macros (Beta)"
+msgstr ""
+
+#: launcher_games_tab.py:943
+msgid "Defined Macros"
+msgstr ""
+
+#: launcher_games_tab.py:949
+msgid "New"
+msgstr "Nuevo"
+
+#: launcher_games_tab.py:951 launcher_games_tab.py:975
+msgid "Del"
+msgstr ""
+
+#: launcher_games_tab.py:955
+msgid "Voice Triggers"
+msgstr "Activadores de Voz"
+
+#: launcher_games_tab.py:956
+msgid "Source"
+msgstr "Origen"
+
+#: launcher_games_tab.py:967
+msgid "Macro Steps"
+msgstr "Pasos de Macro"
+
+#: launcher_games_tab.py:976
+msgid "↑"
+msgstr "↑"
+
+#: launcher_games_tab.py:977
+msgid "↓"
+msgstr "↓"
+
+#: launcher_games_tab.py:978
+msgid "Run"
+msgstr "Ejecutar"
+
+#: launcher_games_tab.py:982
+msgid "Action"
+msgstr "Acción"
+
+#: launcher_games_tab.py:983
+msgid "Key"
+msgstr "Tecla"
+
+#: launcher_games_tab.py:984
+msgid "Delay"
+msgstr "Retraso"
+
+#: launcher_games_tab.py:995
+msgid "Reference File"
+msgstr ""
+
+#: launcher_games_tab.py:1311
+msgid "Complete"
+msgstr "Completado"
+
+#: launcher_games_tab.py:1311
+msgid ""
+"All detected game actions typically have voice commands assigned!\n"
+"You can still edit existing ones."
+msgstr ""
+
+#: launcher_games_tab.py:1318
+msgid "Select Game Action:"
+msgstr ""
+
+#: launcher_games_tab.py:1325
+msgid "Voice Triggers (comma separated):"
+msgstr ""
+
+#: launcher_games_tab.py:1340
+msgid "Add Command"
+msgstr ""
+
+#: launcher_games_tab.py:1453
+msgid "No game group selected."
+msgstr ""
+
+#: launcher_games_tab.py:1464
+msgid "No profiles found in this group."
+msgstr ""
+
+#: launcher_games_tab.py:1480
+msgid "Failed to remove profiles."
+msgstr ""
+
+#: launcher_games_tab.py:1488
+msgid "Select a row to delete."
+msgstr "Selecciona una fila para eliminar."
+
+#: launcher_games_tab.py:1510 launcher_games_tab.py:1628
+msgid "No profile selected."
+msgstr "Ningún perfil seleccionado."
+
+#: launcher_games_tab.py:1524
+msgid "Name already taken."
+msgstr ""
+
+#: launcher_games_tab.py:1593
+msgid "Import Defaults"
+msgstr ""
+
+#: launcher_games_tab.py:1593
+msgid ""
+"Scan and import standard Elite Dangerous ControlSchemes?\n"
+"This may double up profiles if you already have them, but skips duplicate"
+" names."
+msgstr ""
+
+#: launcher_games_tab.py:1599 launcher_games_tab.py:1608
+msgid "Import Complete"
+msgstr ""
+
+#: launcher_games_tab.py:1599
+msgid "No profiles found. (Check console for path/parsing errors)"
+msgstr ""
+
+#: launcher_games_tab.py:1608
+msgid "No profiles found."
+msgstr ""
+
+#: launcher_games_tab.py:1617
+msgid "Please select a Game grouping first."
+msgstr ""
+
+#: launcher_games_tab.py:1636
+msgid "Failed to remove profile."
+msgstr ""
+
+#: launcher_games_tab.py:1818
+msgid "No Game Selected"
+msgstr ""
+
+#: launcher_games_tab.py:1818
+msgid "Please select a game first."
+msgstr "Por favor, selecciona un juego primero."
+
+#: launcher_games_tab.py:1833 launcher_games_tab.py:1891
+msgid "Invalid Name"
+msgstr ""
+
+#: launcher_games_tab.py:1833 launcher_games_tab.py:1891
+msgid "Profile name cannot be empty."
+msgstr "El nombre de perfil no puede estar vacío."
+
+#: launcher_games_tab.py:1852
+msgid "Failed to create macro profile."
+msgstr "Error al crear perfil de macro."
+
+#: launcher_games_tab.py:1908
+msgid "Failed to rename macro profile."
+msgstr "Error al renombrar perfil de macro."
+
+#: launcher_games_tab.py:1953
+msgid "Failed to delete macro profile."
+msgstr "Error al eliminar perfil de macro."
+
+#: launcher_games_tab.py:1976
+msgid "No game profile loaded."
+msgstr ""
+
+#: launcher_games_tab.py:1988
+msgid "Internal Error: Active bindings path is unknown."
+msgstr ""
+
+#: launcher_games_tab.py:2005
+msgid "Select an action to rebind."
+msgstr ""
+
+#: launcher_games_tab.py:2008
+msgid "⚠️ Game is Running"
+msgstr ""
+
+#: launcher_games_tab.py:2008
+msgid ""
+"Elite Dangerous appears to be running.\n"
+"\n"
+"Changes made now may NOT take effect immediately or could be overwritten "
+"by the game.\n"
+"\n"
+"Continue anyway?"
+msgstr ""
+
+#: launcher_games_tab.py:2021
+msgid "Waiting..."
+msgstr ""
+
+#: launcher_games_tab.py:2050 launcher_games_tab.py:2171
+msgid "Warning"
+msgstr "Advertencia"
+
+#: launcher_games_tab.py:2050
+msgid "No key detected."
+msgstr ""
+
+#: launcher_games_tab.py:2077
+msgid "Apply"
+msgstr "Aplicar"
+
+#: launcher_games_tab.py:2112
+msgid "Invalid"
+msgstr ""
+
+#: launcher_games_tab.py:2112
+msgid "Name empty or already exists."
+msgstr ""
+
+#: launcher_games_tab.py:2151
+msgid "Select"
+msgstr ""
+
+#: launcher_games_tab.py:2151
+msgid "Please select a macro."
+msgstr ""
+
+#: launcher_games_tab.py:2171
+msgid "Triggers cannot be empty."
+msgstr ""
+
+#: launcher_games_tab.py:2300
+msgid "Select Macro"
+msgstr ""
+
+#: launcher_games_tab.py:2300
+msgid "Please select a macro first."
+msgstr ""
+
+#: launcher_games_tab.py:2309
+msgid "Select Step"
+msgstr ""
+
+#: launcher_games_tab.py:2309
+msgid "Please select a step to edit."
+msgstr ""
+
+#: launcher_games_tab.py:2318
+msgid "Action:"
+msgstr ""
+
+#: launcher_games_tab.py:2338
+msgid "Delay after (ms):"
+msgstr ""
+
+#: launcher_games_tab.py:2345
+msgid "Audio Feedback (Optional):"
+msgstr ""
+
+#: launcher_games_tab.py:2389
+msgid "Add Step"
+msgstr ""
+
+#: launcher_games_tab.py:2436
+msgid "Input Error"
+msgstr ""
+
+#: launcher_games_tab.py:2436
+msgid "ydotool is not available. Cannot execute macro."
+msgstr ""
+
+#: launcher_games_tab.py:2442
+msgid "Macro execution failed (see console)."
+msgstr ""
+
+#: launcher_games_tab.py:2520
+msgid "Confirm"
+msgstr ""
+
+#: launcher_games_tab.py:2520
+msgid "Remove all voice triggers for this action?"
+msgstr ""
+
+#: launcher_input_tab.py:38
+msgid "Voice Calibration & Testing"
+msgstr ""
+
+#: launcher_input_tab.py:50
+msgid "⚠️ PyAudio not installed. Cannot monitor audio."
+msgstr ""
+
+#: launcher_input_tab.py:62
+msgid "No Default Input Device found."
+msgstr ""
+
+#: launcher_input_tab.py:68 launcher_input_tab.py:159
+msgid "Start Monitor"
+msgstr ""
+
+#: launcher_input_tab.py:82
+msgid "Test Loop:"
+msgstr ""
+
+#: launcher_input_tab.py:84
+msgid "🔴 Record 5s"
+msgstr ""
+
+#: launcher_input_tab.py:87
+msgid "▶️ Playback"
+msgstr ""
+
+#: launcher_input_tab.py:101
+msgid "Push-to-Talk Configuration"
+msgstr ""
+
+#: launcher_input_tab.py:106
+msgid "Enable Push-to-Talk"
+msgstr ""
+
+#: launcher_input_tab.py:112
+msgid "Mode:"
+msgstr ""
+
+#: launcher_input_tab.py:116
+msgid "Trigger Key:"
+msgstr ""
+
+#: launcher_input_tab.py:119
+msgid "(Using pynput key codes, e.g. Key.space, Key.ctrl)"
+msgstr ""
+
+#: launcher_input_tab.py:126
+msgid "Navigation Shortcuts"
+msgstr ""
+
+#: launcher_input_tab.py:132
+msgid "Next Page:"
+msgstr ""
+
+#: launcher_input_tab.py:137
+msgid "Prev Page:"
+msgstr ""
+
+#: launcher_input_tab.py:151
+msgid "Stop Monitor"
+msgstr ""
+
+#: launcher_packs_tab.py:42
+msgid "Installed Content Packs"
+msgstr ""
+
+#: launcher_packs_tab.py:50
+msgid "Pack Name"
+msgstr ""
+
+#: launcher_packs_tab.py:51
+msgid "Version"
+msgstr ""
+
+#: launcher_packs_tab.py:52
+msgid "Author"
+msgstr ""
+
+#: launcher_packs_tab.py:53
+msgid "Compatible Games"
+msgstr ""
+
+#: launcher_packs_tab.py:54
+msgid "Status"
+msgstr ""
+
+#: launcher_packs_tab.py:72
+msgid "Pack Details"
+msgstr ""
+
+#: launcher_packs_tab.py:87
+msgid "📦 Install Pack"
+msgstr ""
+
+#: launcher_packs_tab.py:88
+msgid "🗑️  Remove Pack"
+msgstr ""
+
+#: launcher_packs_tab.py:94
+msgid "📁 Open Packs Folder"
+msgstr ""
+
+#: launcher_packs_tab.py:95
+msgid "🔄 Refresh"
+msgstr ""
+
+#: launcher_packs_tab.py:239
+msgid "Installing content pack..."
+msgstr ""
+
+#: launcher_packs_tab.py:240 launcher_packs_tab.py:250
+msgid "Extracting archive..."
+msgstr ""
+
+#: launcher_packs_tab.py:262
+msgid "Validating pack..."
+msgstr ""
+
+#: launcher_packs_tab.py:297
+msgid "Installing pack..."
+msgstr ""
+
+#: launcher_packs_tab.py:369
+msgid "No Selection"
+msgstr ""
+
+#: launcher_packs_tab.py:369
+msgid "Please select a pack to remove."
+msgstr ""
+
+#: launcher_player_tab.py:17
+msgid "Player"
+msgstr ""
+
+#: launcher_player_tab.py:23
+msgid "Select Player:"
+msgstr ""
+
+#: launcher_player_tab.py:39
+msgid "Scan"
+msgstr ""
+
+#: launcher_player_tab.py:40
+msgid "Add Custom"
+msgstr ""
+
+#: launcher_player_tab.py:43
+msgid "Connection Settings"
+msgstr ""
+
+#: launcher_player_tab.py:47
+msgid "Test Connection"
+msgstr ""
+
+#: launcher_player_tab.py:93
+msgid "Scan Complete"
+msgstr ""
+
+#: launcher_player_tab.py:93
+msgid "No supported players found."
+msgstr ""
+
+#: launcher_player_tab.py:116
+msgid "No configuration needed for this player."
+msgstr ""
+
+#: launcher_player_tab.py:144
+msgid "Scan Now"
+msgstr ""
+
+#: launcher_player_tab.py:155
+msgid "Please select a library path first."
+msgstr ""
+
+#: launcher_player_tab.py:193
+msgid "Replace"
+msgstr ""
+
+#: launcher_player_tab.py:194
+msgid "Clear all and rescan"
+msgstr ""
+
+#: launcher_player_tab.py:197
+msgid "Update"
+msgstr ""
+
+#: launcher_player_tab.py:198
+msgid "Keep existing, add new"
+msgstr ""
+
+#: launcher_player_tab.py:225
+msgid "Scanning"
+msgstr ""
+
+#: launcher_player_tab.py:225
+msgid "Scanning library in background..."
+msgstr ""
+
+#: launcher_speech_tab.py:16
+msgid "Speech Recognition (ASR)"
+msgstr ""
+
+#: launcher_speech_tab.py:27 launcher_speech_tab.py:42
+msgid "Select an engine..."
+msgstr ""
+
+#: launcher_speech_tab.py:31
+msgid "Text-to-Speech (TTS)"
+msgstr ""
+
+#: launcher_speech_tab.py:48
+msgid "Apply Speech Settings"
+msgstr ""
+
+#: launcher_speech_tab.py:51
+msgid "Wyoming Settings (External Server)"
+msgstr ""
+
+#: launcher_speech_tab.py:54
+msgid "Host:"
+msgstr ""
+
+#: launcher_speech_tab.py:58
+msgid "Port:"
+msgstr ""
+
+#: launcher_speech_tab.py:126
+msgid ""
+"Speech settings saved!\n"
+"Restart the assistant to apply changes."
+msgstr ""
+
+#: launcher_vocabulary_tab.py:28
+msgid ""
+"When populated, the Assistant will ONLY listen for these words + unknown "
+"sounds."
+msgstr ""
+
+#: launcher_vocabulary_tab.py:31
+msgid "Import Game Vocabulary"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:37
+msgid "Select Game:"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:44
+msgid "↻"
+msgstr "↻"
+
+#: launcher_vocabulary_tab.py:46
+msgid "Import Selected"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:64
+msgid "Current Vocabulary:"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:78
+msgid "New Term:"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:84
+msgid "Add Term"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:134
+msgid "Confirm Clear"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:134
+msgid "Are you sure you want to clear the entire vocabulary list?"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:211
+msgid "Import Info"
+msgstr ""
+
+#: launcher_vocabulary_tab.py:211
+msgid "All terms from this file are already in your vocabulary."
+msgstr ""
+

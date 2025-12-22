@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
+	<Supercruise>
+		<Primary Device="Keyboard" Key="Key_F1"><Modifier Device="Keyboard" Key="Key_LeftShift" /></Primary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</Supercruise>
+</Root>

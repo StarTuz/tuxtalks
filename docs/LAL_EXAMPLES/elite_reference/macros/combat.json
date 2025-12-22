@@ -1,0 +1,58 @@
+{
+    "pack_name": "Elite Combat Macros",
+    "game_type": "EliteDangerous",
+    "macros": {
+        "engage_combat": {
+            "triggers": [
+                "engage",
+                "weapons hot",
+                "combat mode"
+            ],
+            "description": "Prepare for combat",
+            "steps": [
+                {
+                    "action": "Deploy Hardpoints",
+                    "delay": 100
+                },
+                {
+                    "audio_feedback": "confirm_hardpoints_deployed",
+                    "delay": 800
+                },
+                {
+                    "action": "Pip Reset",
+                    "delay": 50
+                },
+                {
+                    "action": "Full Power to Weapons",
+                    "delay": 50
+                }
+            ]
+        },
+        "emergency_jump": {
+            "triggers": [
+                "emergency jump",
+                "get out now",
+                "bail out"
+            ],
+            "description": "Emergency FSD jump",
+            "steps": [
+                {
+                    "action": "Pip Reset",
+                    "delay": 50
+                },
+                {
+                    "action": "Full Power to Engines",
+                    "delay": 50
+                },
+                {
+                    "action": "Frameshift Drive",
+                    "delay": 100
+                },
+                {
+                    "audio_feedback": "response_affirmative",
+                    "delay": 500
+                }
+            ]
+        }
+    }
+}

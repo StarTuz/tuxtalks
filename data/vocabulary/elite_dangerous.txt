@@ -1,0 +1,34 @@
+Frame Shift Drive
+Supercruise
+Hyperspace
+Landing Gear
+Cargo Scoop
+Hardpoints
+Heat Sink
+Chaff Launcher
+Shield Cell Bank
+System Map
+Galaxy Map
+Target Ahead
+Next Target
+Previous Target
+Highest Threat
+Hostile
+Wingman
+Fighter
+Request Docking
+Lights
+Night Vision
+Silent Running
+Flight Assist
+Orbital Lines
+Rotational Correction
+Full Stop
+Speed 50
+Speed 75
+Speed 100
+Boost
+Detailed Surface Scanner
+Full Spectrum System
+Codex
+Squadron

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
+	<LandingGearToggle>
+		<Primary Device="Keyboard" Key="Key_L" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</LandingGearToggle>
+	<ShipSpotLightToggle>
+		<Primary Device="Keyboard" Key="Key_Insert" />
+		<Secondary Device="Keyboard" Key="Key_L">
+            <Modifier Device="Keyboard" Key="Key_LeftShift" />
+        </Secondary>
+	</ShipSpotLightToggle>
+    <UseBoostJuice>
+        <Primary Device="Joystick" Key="Joy_5" />
+        <Secondary Device="Keyboard" Key="Key_Tab" />
+    </UseBoostJuice>
+</Root>

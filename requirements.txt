@@ -1,0 +1,10 @@
+vosk>=0.3.45
+pyaudio>=0.2.14
+requests>=2.31.0
+dbus-python>=1.2.18
+mutagen>=1.45.1
+evdev>=1.7.0
+wyoming>=1.8.0
+pynput
+ttkbootstrap>=1.7.6
+psutil
