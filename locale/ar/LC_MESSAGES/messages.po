@@ -21,125 +21,125 @@ msgstr ""
 
 #: build/lib/launcher.py:59 launcher.py:59
 msgid "🐧"
-msgstr ""
+msgstr "🐧"
 
 #: build/lib/launcher.py:68 launcher.py:68
 msgid "TuxTalks"
-msgstr ""
+msgstr "TuxTalks"
 
 #: build/lib/launcher.py:69 launcher.py:69
 msgid " Settings"
-msgstr ""
+msgstr "الإعدادات"
 
 #: build/lib/launcher.py:72 launcher.py:72
 msgid "Advanced Voice Control for Linux"
-msgstr ""
+msgstr "التحكم الصوتي المتقدم لنظام Linux"
 
 #: build/lib/launcher.py:77 launcher.py:77
 msgid "Theme:"
-msgstr ""
+msgstr "السمة:"
 
 #: build/lib/launcher.py:116 launcher.py:116
 msgid "Scale:"
-msgstr ""
+msgstr "المقياس:"
 
 #: build/lib/launcher.py:126 launcher.py:126
 msgid "Start Assistant"
-msgstr ""
+msgstr "بدء المساعد"
 
 #: build/lib/launcher.py:127 launcher.py:127
 msgid "Stop"
-msgstr ""
+msgstr "إيقاف"
 
 #: build/lib/launcher.py:129 launcher.py:129
 msgid "Exit"
-msgstr ""
+msgstr "خروج"
 
 #: build/lib/launcher.py:130 launcher.py:130
 msgid "Save Config"
-msgstr ""
+msgstr "حفظ الإعدادات"
 
 #: build/lib/launcher.py:138 launcher.py:138
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: build/lib/launcher.py:147 launcher.py:147
 msgid "Voice"
-msgstr ""
+msgstr "الصوت"
 
 #: build/lib/launcher.py:152 launcher.py:152
 msgid "Games"
-msgstr ""
+msgstr "الألعاب"
 
 #: build/lib/launcher.py:159 launcher.py:159
 msgid "Content Packs"
-msgstr ""
+msgstr "حزم المحتوى"
 
 #: build/lib/launcher.py:165 launcher.py:165
 msgid "Speech Engines"
-msgstr ""
+msgstr "محركات الكلام"
 
 #: build/lib/launcher.py:173 launcher.py:173
 msgid "Input"
-msgstr ""
+msgstr "الإدخال"
 
 #: build/lib/launcher.py:178 launcher.py:178
 msgid "Vocabulary"
-msgstr ""
+msgstr "المفردات"
 
 #: build/lib/launcher.py:183 launcher.py:183
 msgid "Help"
-msgstr ""
+msgstr "مساعدة"
 
 #: build/lib/launcher.py:196 launcher.py:196
 msgid "Wake Word Settings"
-msgstr ""
+msgstr "إعدادات كلمة التنشيط"
 
 #: build/lib/launcher.py:199 launcher.py:199
 msgid "Wake Word:"
-msgstr ""
+msgstr "كلمة التنشيط:"
 
 #: build/lib/launcher.py:205 launcher.py:205
 msgid "Speech Recognition (Vosk)"
-msgstr ""
+msgstr "التعرف على الكلام (Vosk)"
 
 #: build/lib/launcher.py:211 launcher.py:211
 msgid "Active Model:"
-msgstr ""
+msgstr "النموذج النشط:"
 
 #: build/lib/launcher.py:225 launcher.py:225
 msgid "Browse Folder"
-msgstr ""
+msgstr "تصفح المجلد"
 
 #: build/lib/launcher.py:226 build/lib/launcher.py:263 launcher.py:226
 #: launcher.py:263
 msgid "Download from URL"
-msgstr ""
+msgstr "تنزيل من عنوان URL"
 
 #: build/lib/launcher.py:227 build/lib/launcher_vocabulary_tab.py:85
 #: launcher.py:227 launcher_vocabulary_tab.py:85
 msgid "Delete Selected"
-msgstr ""
+msgstr "حذف المحدد"
 
 #: build/lib/launcher.py:234 launcher.py:234
 msgid "Text-to-Speech (Piper)"
-msgstr ""
+msgstr "النص إلى كلام (Piper)"
 
 #: build/lib/launcher.py:240 launcher.py:240
 msgid "Active Voice:"
-msgstr ""
+msgstr "الصوت النشط:"
 
 #: build/lib/launcher.py:257 launcher.py:257
 msgid "Delete Voice"
-msgstr ""
+msgstr "حذف الصوت"
 
 #: build/lib/launcher.py:260 launcher.py:260
 msgid "Import New Voice"
-msgstr ""
+msgstr "استيراد صوت جديد"
 
 #: build/lib/launcher.py:264 launcher.py:264
 msgid "Load from File (.onnx)"
-msgstr ""
+msgstr "تحميل من ملف (.onnx)"
 
 #: build/lib/launcher.py:328 build/lib/launcher.py:339
 #: build/lib/launcher_corrections_tab.py:198
@@ -152,7 +152,7 @@ msgstr ""
 #: launcher_games_tab.py:1617 launcher_games_tab.py:1628
 #: launcher_games_tab.py:2005 launcher_vocabulary_tab.py:24
 msgid "Info"
-msgstr ""
+msgstr "معلومات"
 
 #: build/lib/launcher.py:328 launcher.py:328
 msgid "Scaling saved. Restart required for full effect."
@@ -160,15 +160,15 @@ msgstr ""
 
 #: build/lib/launcher.py:339 launcher.py:339
 msgid "TuxTalks is already running."
-msgstr ""
+msgstr "TuxTalks قيد التشغيل بالفعل."
 
 #: build/lib/launcher.py:343 launcher.py:343
 msgid "Unsaved Changes"
-msgstr ""
+msgstr "تغييرات غير محفوظة"
 
 #: build/lib/launcher.py:343 launcher.py:343
 msgid "You have unsaved changes. Save before starting?"
-msgstr ""
+msgstr "لديك تغييرات غير محفوظة. هل تريد الحفظ قبل البدء؟"
 
 #: build/lib/launcher.py:383 launcher.py:383
 msgid "No Terminal Found"
@@ -182,25 +182,25 @@ msgstr ""
 
 #: build/lib/launcher.py:392 launcher.py:392
 msgid "Stopped"
-msgstr ""
+msgstr "متوقف"
 
 #: build/lib/launcher.py:392 launcher.py:392
 msgid "Assistant stopped."
-msgstr ""
+msgstr "تم إيقاف المساعد."
 
 #: build/lib/launcher.py:415 build/lib/launcher_corrections_tab.py:292
 #: build/lib/launcher_speech_tab.py:126 launcher.py:415
 #: launcher_corrections_tab.py:292 launcher_speech_tab.py:126
 msgid "Saved"
-msgstr ""
+msgstr "محفوظ"
 
 #: build/lib/launcher.py:415 launcher.py:415
 msgid "Configuration saved."
-msgstr ""
+msgstr "تم حفظ التكوين."
 
 #: build/lib/launcher.py:432 launcher.py:432
 msgid "Downloading"
-msgstr ""
+msgstr "جاري التنزيل"
 
 #: build/lib/launcher.py:432 launcher.py:432
 msgid "Downloading in background..."
@@ -210,7 +210,7 @@ msgstr ""
 #: build/lib/launcher_corrections_tab.py:283 launcher.py:448 launcher.py:458
 #: launcher_corrections_tab.py:283
 msgid "Success"
-msgstr ""
+msgstr "نجاح"
 
 #: build/lib/launcher.py:448 launcher.py:448
 msgid "Deleted."
@@ -234,7 +234,7 @@ msgstr ""
 #: launcher_games_tab.py:1988 launcher_games_tab.py:2442
 #: launcher_player_tab.py:155
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 #: build/lib/launcher.py:450 launcher.py:450
 msgid "Failed."
@@ -254,7 +254,7 @@ msgstr ""
 
 #: build/lib/launcher.py:478 launcher.py:478
 msgid "Importing"
-msgstr ""
+msgstr "جاري الاستيراد"
 
 #: build/lib/launcher.py:478 launcher.py:478
 msgid "Downloading voice in background..."
@@ -266,24 +266,24 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:15 launcher_corrections_tab.py:15
 msgid "Corrections"
-msgstr ""
+msgstr "التصحيحات"
 
 #: build/lib/launcher_corrections_tab.py:29 build/lib/launcher_games_tab.py:973
 #: launcher_corrections_tab.py:29 launcher_games_tab.py:973
 msgid "Add"
-msgstr ""
+msgstr "إضافة"
 
 #: build/lib/launcher_corrections_tab.py:30 build/lib/launcher_games_tab.py:950
 #: build/lib/launcher_games_tab.py:974 launcher_corrections_tab.py:30
 #: launcher_games_tab.py:950 launcher_games_tab.py:974
 msgid "Edit"
-msgstr ""
+msgstr "تحرير"
 
 #: build/lib/launcher_corrections_tab.py:31
 #: build/lib/launcher_corrections_tab.py:90 launcher_corrections_tab.py:31
 #: launcher_corrections_tab.py:90
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: build/lib/launcher_corrections_tab.py:34 launcher_corrections_tab.py:34
 msgid "Voice Corrections (Heard -> Meant)"
@@ -291,15 +291,15 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:39 launcher_corrections_tab.py:39
 msgid "When I hear..."
-msgstr ""
+msgstr "عندما أسمع..."
 
 #: build/lib/launcher_corrections_tab.py:40 launcher_corrections_tab.py:40
 msgid "I should understand..."
-msgstr ""
+msgstr "يجب أن أفهم..."
 
 #: build/lib/launcher_corrections_tab.py:54 launcher_corrections_tab.py:54
 msgid "Test & Train"
-msgstr ""
+msgstr "اختبار وتدريب"
 
 #: build/lib/launcher_corrections_tab.py:60
 #: build/lib/launcher_corrections_tab.py:256
@@ -312,42 +312,42 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:64 launcher_corrections_tab.py:64
 msgid "Dur:"
-msgstr ""
+msgstr "المدة:"
 
 #: build/lib/launcher_corrections_tab.py:73 launcher_corrections_tab.py:73
 msgid "Add as Correction"
-msgstr ""
+msgstr "إضافة كتصحيح"
 
 #: build/lib/launcher_corrections_tab.py:78 launcher_corrections_tab.py:78
 msgid "Targeted Train"
-msgstr ""
+msgstr "تدريب موجه"
 
 #: build/lib/launcher_corrections_tab.py:79 launcher_corrections_tab.py:79
 msgid "Basic"
-msgstr ""
+msgstr "أساسي"
 
 #: build/lib/launcher_corrections_tab.py:80 launcher_corrections_tab.py:80
 msgid "Advanced"
-msgstr ""
+msgstr "متقدم"
 
 #: build/lib/launcher_corrections_tab.py:83 launcher_corrections_tab.py:83
 msgid "Recent Ignored/Missed Commands"
-msgstr ""
+msgstr "الأوامر الأخيرة المتجاهلة/المفقودة"
 
 #: build/lib/launcher_corrections_tab.py:89 launcher_corrections_tab.py:89
 msgid "Use Selected"
-msgstr ""
+msgstr "استخدام المحدد"
 
 #: build/lib/launcher_corrections_tab.py:91
 #: build/lib/launcher_vocabulary_tab.py:86 launcher_corrections_tab.py:91
 #: launcher_vocabulary_tab.py:86
 msgid "Clear All"
-msgstr ""
+msgstr "مسح الكل"
 
 #: build/lib/launcher_corrections_tab.py:92 build/lib/launcher_games_tab.py:801
 #: launcher_corrections_tab.py:92 launcher_games_tab.py:801
 msgid "Refresh"
-msgstr ""
+msgstr "تحديث"
 
 #: build/lib/launcher_corrections_tab.py:136 launcher_corrections_tab.py:136
 msgid "Confirm Delete"
@@ -355,11 +355,11 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:136 launcher_corrections_tab.py:136
 msgid "Delete selected correction?"
-msgstr ""
+msgstr "هل تريد حذف التصحيح المحدد؟"
 
 #: build/lib/launcher_corrections_tab.py:198 launcher_corrections_tab.py:198
 msgid "Test a phrase first."
-msgstr ""
+msgstr "اختبر عبارة أولاً."
 
 #: build/lib/launcher_corrections_tab.py:231 launcher_corrections_tab.py:231
 msgid "Model not found. Please check General settings."
@@ -367,29 +367,29 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:283 launcher_corrections_tab.py:283
 msgid "Perfect match! No training needed."
-msgstr ""
+msgstr "تطابق تام! لا حاجة للتدريب."
 
 #: build/lib/launcher_corrections_tab.py:292 launcher_corrections_tab.py:292
 msgid "Correction added."
-msgstr ""
+msgstr "تم إضافة التصحيح."
 
 #: build/lib/launcher_games_tab.py:29 launcher_games_tab.py:29
 msgid "Press the key combination on your keyboard:"
-msgstr ""
+msgstr "اضغط على مجموعة المفاتيح على لوحة المفاتيح:"
 
 #: build/lib/launcher_games_tab.py:35 launcher_games_tab.py:35
 msgid "(Example: Ctrl + Alt + H)"
-msgstr ""
+msgstr "(مثال: Ctrl + Alt + H)"
 
 #: build/lib/launcher_games_tab.py:40 build/lib/launcher_games_tab.py:2078
 #: build/lib/launcher_player_tab.py:201 launcher_games_tab.py:40
 #: launcher_games_tab.py:2078 launcher_player_tab.py:201
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: build/lib/launcher_games_tab.py:41 launcher_games_tab.py:41
 msgid "Clear"
-msgstr ""
+msgstr "مسح"
 
 #: build/lib/launcher_games_tab.py:134 launcher_games_tab.py:134
 msgid "Step 1: Select Running Game Process"
@@ -397,15 +397,15 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:140 launcher_games_tab.py:140
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: build/lib/launcher_games_tab.py:141 launcher_games_tab.py:141
 msgid "Process Name"
-msgstr ""
+msgstr "اسم العملية"
 
 #: build/lib/launcher_games_tab.py:142 launcher_games_tab.py:142
 msgid "Command Line / Path"
-msgstr ""
+msgstr "سطر الأوامر / المسار"
 
 #: build/lib/launcher_games_tab.py:162 launcher_games_tab.py:162
 msgid "🔄 Scan Processes"
@@ -417,35 +417,35 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:172 launcher_games_tab.py:172
 msgid "Game Type:"
-msgstr ""
+msgstr "نوع اللعبة:"
 
 #: build/lib/launcher_games_tab.py:180 launcher_games_tab.py:180
 msgid "Game Name:"
-msgstr ""
+msgstr "اسم اللعبة:"
 
 #: build/lib/launcher_games_tab.py:185 launcher_games_tab.py:185
 msgid "Process Name:"
-msgstr ""
+msgstr "اسم العملية:"
 
 #: build/lib/launcher_games_tab.py:190 launcher_games_tab.py:190
 msgid "Binding Profile Name:"
-msgstr ""
+msgstr "اسم ملف تعريف الربط:"
 
 #: build/lib/launcher_games_tab.py:196 build/lib/launcher_games_tab.py:858
 #: launcher_games_tab.py:196 launcher_games_tab.py:858
 msgid "Runtime Environment:"
-msgstr ""
+msgstr "بيئة التشغيل:"
 
 #: build/lib/launcher_games_tab.py:205 launcher_games_tab.py:205
 msgid "Bindings Path:"
-msgstr ""
+msgstr "مسار الربط:"
 
 #: build/lib/launcher_games_tab.py:212 build/lib/launcher_games_tab.py:640
 #: build/lib/launcher_games_tab.py:884 build/lib/launcher_player_tab.py:143
 #: launcher_games_tab.py:212 launcher_games_tab.py:640
 #: launcher_games_tab.py:884 launcher_player_tab.py:143
 msgid "Browse"
-msgstr ""
+msgstr "تصفح"
 
 #: build/lib/launcher_games_tab.py:213 launcher_games_tab.py:213
 msgid "🔍 Scan"
@@ -457,7 +457,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "Scan Results"
-msgstr ""
+msgstr "نتائج الفحص"
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "No standard binding files found for this game type."
@@ -465,19 +465,19 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:505 launcher_games_tab.py:505
 msgid "Process Name required."
-msgstr ""
+msgstr "اسم العملية مطلوب."
 
 #: build/lib/launcher_games_tab.py:629 launcher_games_tab.py:629
 msgid "Profile Name (Variant):"
-msgstr ""
+msgstr "اسم ملف التعريف (متغير):"
 
 #: build/lib/launcher_games_tab.py:634 launcher_games_tab.py:634
 msgid "Bindings File Path (Optional):"
-msgstr ""
+msgstr "مسار ملف الربط (اختياري):"
 
 #: build/lib/launcher_games_tab.py:643 launcher_games_tab.py:643
 msgid "Create Profile"
-msgstr ""
+msgstr "إنشاء ملف تعريف"
 
 #: build/lib/launcher_games_tab.py:664 launcher_games_tab.py:664
 msgid "Profile Name required."
@@ -485,112 +485,112 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:717 launcher_games_tab.py:717
 msgid "Game Integration Status"
-msgstr ""
+msgstr "حالة تكامل اللعبة"
 
 #: build/lib/launcher_games_tab.py:724 launcher_games_tab.py:724
 msgid "Game:"
-msgstr ""
+msgstr "اللعبة:"
 
 #: build/lib/launcher_games_tab.py:730 launcher_games_tab.py:730
 msgid "Binds:"
-msgstr ""
+msgstr "الروابط:"
 
 #: build/lib/launcher_games_tab.py:741 launcher_games_tab.py:741
 msgid "Macro Profile:"
-msgstr ""
+msgstr "ملف تعريف الماكرو:"
 
 #: build/lib/launcher_games_tab.py:753 launcher_games_tab.py:753
 msgid "➕"
-msgstr ""
+msgstr "➕"
 
 #: build/lib/launcher_games_tab.py:760 launcher_games_tab.py:760
 msgid "✏"
-msgstr ""
+msgstr "✏"
 
 #: build/lib/launcher_games_tab.py:767 launcher_games_tab.py:767
 msgid "🗑"
-msgstr ""
+msgstr "🗑"
 
 #: build/lib/launcher_games_tab.py:781 launcher_games_tab.py:781
 msgid "Runtime Status:"
-msgstr ""
+msgstr "حالة التشغيل:"
 
 #: build/lib/launcher_games_tab.py:787 launcher_games_tab.py:787
 msgid "Enable Game Integration"
-msgstr ""
+msgstr "تفعيل تكامل اللعبة"
 
 #: build/lib/launcher_games_tab.py:795 launcher_games_tab.py:795
 msgid "Filter:"
-msgstr ""
+msgstr "فلتر:"
 
 #: build/lib/launcher_games_tab.py:802 launcher_games_tab.py:802
 msgid "Restore"
-msgstr ""
+msgstr "استعادة"
 
 #: build/lib/launcher_games_tab.py:803 launcher_games_tab.py:803
 msgid "Backup"
-msgstr ""
+msgstr "نسخ احتياطي"
 
 #: build/lib/launcher_games_tab.py:809 launcher_games_tab.py:809
 msgid "Add Game"
-msgstr ""
+msgstr "إضافة لعبة"
 
 #: build/lib/launcher_games_tab.py:810 build/lib/launcher_games_tab.py:1510
 #: launcher_games_tab.py:810 launcher_games_tab.py:1510
 msgid "Edit Game"
-msgstr ""
+msgstr "تحرير لعبة"
 
 #: build/lib/launcher_games_tab.py:811 launcher_games_tab.py:811
 msgid "Remove Game"
-msgstr ""
+msgstr "إزالة لعبة"
 
 #: build/lib/launcher_games_tab.py:813 launcher_games_tab.py:813
 msgid "Add Bind"
-msgstr ""
+msgstr "إضافة ربط"
 
 #: build/lib/launcher_games_tab.py:814 launcher_games_tab.py:814
 msgid "Edit Bind"
-msgstr ""
+msgstr "تحرير ربط"
 
 #: build/lib/launcher_games_tab.py:815 launcher_games_tab.py:815
 msgid "Remove Bind"
-msgstr ""
+msgstr "إزالة ربط"
 
 #: build/lib/launcher_games_tab.py:816 launcher_games_tab.py:816
 msgid "Default Binds"
-msgstr ""
+msgstr "الروابط الافتراضية"
 
 #: build/lib/launcher_games_tab.py:828 launcher_games_tab.py:828
 msgid "Bindings"
-msgstr ""
+msgstr "ربط المفاتيح"
 
 #: build/lib/launcher_games_tab.py:835 launcher_games_tab.py:835
 msgid "Profile Settings"
-msgstr ""
+msgstr "إعدادات ملف التعريف"
 
 #: build/lib/launcher_games_tab.py:840 launcher_games_tab.py:840
 msgid "Profile Configuration"
-msgstr ""
+msgstr "تكوين ملف التعريف"
 
 #: build/lib/launcher_games_tab.py:847 launcher_games_tab.py:847
 msgid "Process Name (e.g. X4.exe):"
-msgstr ""
+msgstr "اسم العملية (مثلاً X4.exe):"
 
 #: build/lib/launcher_games_tab.py:852 launcher_games_tab.py:852
 msgid "Bindings File Path:"
-msgstr ""
+msgstr "مسار ملف الربط:"
 
 #: build/lib/launcher_games_tab.py:855 launcher_games_tab.py:855
 msgid " Browse "
-msgstr ""
+msgstr "تصفح"
 
 #: build/lib/launcher_games_tab.py:864 launcher_games_tab.py:864
 msgid "Save Settings"
-msgstr ""
+msgstr "حفظ الإعدادات"
 
 #: build/lib/launcher_games_tab.py:867 launcher_games_tab.py:867
 msgid "External Audio Assets"
-msgstr ""
+msgstr "أصول الصوت الخارجية"
 
 #: build/lib/launcher_games_tab.py:872 launcher_games_tab.py:872
 msgid ""
@@ -600,7 +600,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:879 launcher_games_tab.py:879
 msgid "Audio Directory:"
-msgstr ""
+msgstr "دليل الصوت:"
 
 #: build/lib/launcher_games_tab.py:891 launcher_games_tab.py:891
 msgid "X4 Foundations Controller Sync"
@@ -626,27 +626,27 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:903 launcher_games_tab.py:903
 msgid "Active Profile Bindings"
-msgstr ""
+msgstr "روابط ملف التعريف النشط"
 
 #: build/lib/launcher_games_tab.py:910 launcher_games_tab.py:910
 msgid "Voice Command"
-msgstr ""
+msgstr "أمر صوتي"
 
 #: build/lib/launcher_games_tab.py:911 launcher_games_tab.py:911
 msgid "Game Action"
-msgstr ""
+msgstr "إجراء اللعبة"
 
 #: build/lib/launcher_games_tab.py:912 launcher_games_tab.py:912
 msgid "Mapped Key"
-msgstr ""
+msgstr "مفتاح مربوط"
 
 #: build/lib/launcher_games_tab.py:923 launcher_games_tab.py:923
 msgid "Modify Trigger"
-msgstr ""
+msgstr "تعديل المحفز"
 
 #: build/lib/launcher_games_tab.py:924 launcher_games_tab.py:924
 msgid "Clear Trigger"
-msgstr ""
+msgstr "مسح المحفز"
 
 #: build/lib/launcher_games_tab.py:936 launcher_games_tab.py:936
 msgid "Macros (Beta)"
@@ -654,11 +654,11 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:943 launcher_games_tab.py:943
 msgid "Defined Macros"
-msgstr ""
+msgstr "الماكروات المعرفة"
 
 #: build/lib/launcher_games_tab.py:949 launcher_games_tab.py:949
 msgid "New"
-msgstr ""
+msgstr "جديد"
 
 #: build/lib/launcher_games_tab.py:951 build/lib/launcher_games_tab.py:975
 #: launcher_games_tab.py:951 launcher_games_tab.py:975
@@ -667,47 +667,47 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:955 launcher_games_tab.py:955
 msgid "Voice Triggers"
-msgstr ""
+msgstr "محفزات صوتية"
 
 #: build/lib/launcher_games_tab.py:956 launcher_games_tab.py:956
 msgid "Source"
-msgstr ""
+msgstr "مصدر"
 
 #: build/lib/launcher_games_tab.py:967 launcher_games_tab.py:967
 msgid "Macro Steps"
-msgstr ""
+msgstr "خطوات الماكرو"
 
 #: build/lib/launcher_games_tab.py:976 launcher_games_tab.py:976
 msgid "↑"
-msgstr ""
+msgstr "↑"
 
 #: build/lib/launcher_games_tab.py:977 launcher_games_tab.py:977
 msgid "↓"
-msgstr ""
+msgstr "↓"
 
 #: build/lib/launcher_games_tab.py:978 launcher_games_tab.py:978
 msgid "Run"
-msgstr ""
+msgstr "تشغيل"
 
 #: build/lib/launcher_games_tab.py:982 launcher_games_tab.py:982
 msgid "Action"
-msgstr ""
+msgstr "إجراء"
 
 #: build/lib/launcher_games_tab.py:983 launcher_games_tab.py:983
 msgid "Key"
-msgstr ""
+msgstr "مفتاح"
 
 #: build/lib/launcher_games_tab.py:984 launcher_games_tab.py:984
 msgid "Delay"
-msgstr ""
+msgstr "تأخير"
 
 #: build/lib/launcher_games_tab.py:995 launcher_games_tab.py:995
 msgid "Reference File"
-msgstr ""
+msgstr "ملف مرجعي"
 
 #: build/lib/launcher_games_tab.py:1311 launcher_games_tab.py:1311
 msgid "Complete"
-msgstr ""
+msgstr "مكتمل"
 
 #: build/lib/launcher_games_tab.py:1311 launcher_games_tab.py:1311
 msgid ""
@@ -725,7 +725,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1340 launcher_games_tab.py:1340
 msgid "Add Command"
-msgstr ""
+msgstr "إضافة أمر"
 
 #: build/lib/launcher_games_tab.py:1453 launcher_games_tab.py:1453
 msgid "No game group selected."
@@ -741,12 +741,12 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1488 launcher_games_tab.py:1488
 msgid "Select a row to delete."
-msgstr ""
+msgstr "اختر صفا لحذفه."
 
 #: build/lib/launcher_games_tab.py:1510 build/lib/launcher_games_tab.py:1628
 #: launcher_games_tab.py:1510 launcher_games_tab.py:1628
 msgid "No profile selected."
-msgstr ""
+msgstr "لم يتم اختيار ملف تعريف."
 
 #: build/lib/launcher_games_tab.py:1524 launcher_games_tab.py:1524
 msgid "Name already taken."
@@ -754,7 +754,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid "Import Defaults"
-msgstr ""
+msgstr "استيراد الافتراضيات"
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid ""
@@ -790,7 +790,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1818 launcher_games_tab.py:1818
 msgid "Please select a game first."
-msgstr ""
+msgstr "يرجى اختيار لعبة أولاً."
 
 #: build/lib/launcher_games_tab.py:1833 build/lib/launcher_games_tab.py:1891
 #: launcher_games_tab.py:1833 launcher_games_tab.py:1891
@@ -800,19 +800,19 @@ msgstr ""
 #: build/lib/launcher_games_tab.py:1833 build/lib/launcher_games_tab.py:1891
 #: launcher_games_tab.py:1833 launcher_games_tab.py:1891
 msgid "Profile name cannot be empty."
-msgstr ""
+msgstr "لا يمكن أن يكون اسم ملف التعريف فارغاً."
 
 #: build/lib/launcher_games_tab.py:1852 launcher_games_tab.py:1852
 msgid "Failed to create macro profile."
-msgstr ""
+msgstr "فشل إنشاء ملف تعريف الماكرو."
 
 #: build/lib/launcher_games_tab.py:1908 launcher_games_tab.py:1908
 msgid "Failed to rename macro profile."
-msgstr ""
+msgstr "فشل إعادة تسمية ملف تعريف الماكرو."
 
 #: build/lib/launcher_games_tab.py:1953 launcher_games_tab.py:1953
 msgid "Failed to delete macro profile."
-msgstr ""
+msgstr "فشل حذف ملف تعريف الماكرو."
 
 #: build/lib/launcher_games_tab.py:1976 launcher_games_tab.py:1976
 msgid "No game profile loaded."
@@ -847,7 +847,7 @@ msgstr ""
 #: build/lib/launcher_games_tab.py:2050 build/lib/launcher_games_tab.py:2171
 #: launcher_games_tab.py:2050 launcher_games_tab.py:2171
 msgid "Warning"
-msgstr ""
+msgstr "تحذير"
 
 #: build/lib/launcher_games_tab.py:2050 launcher_games_tab.py:2050
 msgid "No key detected."
@@ -855,7 +855,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:2077 launcher_games_tab.py:2077
 msgid "Apply"
-msgstr ""
+msgstr "تطبيق"
 
 #: build/lib/launcher_games_tab.py:2112 launcher_games_tab.py:2112
 msgid "Invalid"
@@ -895,7 +895,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:2318 launcher_games_tab.py:2318
 msgid "Action:"
-msgstr ""
+msgstr "إجراء:"
 
 #: build/lib/launcher_games_tab.py:2338 launcher_games_tab.py:2338
 msgid "Delay after (ms):"
@@ -1065,7 +1065,7 @@ msgstr ""
 
 #: build/lib/launcher_player_tab.py:17 launcher_player_tab.py:17
 msgid "Player"
-msgstr ""
+msgstr "مشغل"
 
 #: build/lib/launcher_player_tab.py:23 launcher_player_tab.py:23
 msgid "Select Player:"
@@ -1182,7 +1182,7 @@ msgstr ""
 
 #: build/lib/launcher_vocabulary_tab.py:44 launcher_vocabulary_tab.py:44
 msgid "↻"
-msgstr ""
+msgstr "↻"
 
 #: build/lib/launcher_vocabulary_tab.py:46 launcher_vocabulary_tab.py:46
 msgid "Import Selected"

@@ -15,7 +15,7 @@ A voice-controlled assistant for Linux gamers and media enthusiasts, featuring g
 - **🎓 Voice Learning**: Automatically improves accuracy by learning from your voice (zero training required!)
 - **Video Support**: Play video files (.mp4, .mkv, .avi, etc.) via MPRIS players like VLC
 - **Player Support**: JRiver, Strawberry, Elisa, and standard MPRIS players
-- **6 Languages**: English, Spanish, Ukrainian, Welsh, German, French, Arabic (with RTL support)
+- **🌍 Multi-Language UI**: 6 languages with partial translations (English, Spanish, German, French, Ukrainian, Welsh, Arabic). Full RTL (Right-to-Left) support for Arabic. [Community contributions welcome!](CONTRIBUTING_TRANSLATIONS.md)
 - **Game Integration**: Elite Dangerous and X4 Foundations voice commands and macros
 - **Customizable**: Wake Word, Speech Recognition Model (Vosk), TTS Voice (Piper)
 - **Voice Import**: Easily import new Piper voices from Hugging Face or GitHub

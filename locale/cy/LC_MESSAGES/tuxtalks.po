@@ -21,15 +21,15 @@ msgstr ""
 
 #: build/lib/launcher.py:59 launcher.py:59
 msgid "🐧"
-msgstr ""
+msgstr "🐧"
 
 #: build/lib/launcher.py:68 launcher.py:68
 msgid "TuxTalks"
-msgstr ""
+msgstr "TuxTalks"
 
 #: build/lib/launcher.py:69 launcher.py:69
 msgid " Settings"
-msgstr ""
+msgstr "Gosodiadau"
 
 #: build/lib/launcher.py:72 launcher.py:72
 msgid "Advanced Voice Control for Linux"
@@ -37,11 +37,11 @@ msgstr "Rheolaeth Llais Uwch ar gyfer Linux"
 
 #: build/lib/launcher.py:77 launcher.py:77
 msgid "Theme:"
-msgstr ""
+msgstr "Thema:"
 
 #: build/lib/launcher.py:116 launcher.py:116
 msgid "Scale:"
-msgstr ""
+msgstr "Graddfa:"
 
 #: build/lib/launcher.py:126 launcher.py:126
 msgid "Start Assistant"
@@ -93,53 +93,53 @@ msgstr "Cymorth"
 
 #: build/lib/launcher.py:196 launcher.py:196
 msgid "Wake Word Settings"
-msgstr ""
+msgstr "Gosodiadau Gair Deffro"
 
 #: build/lib/launcher.py:199 launcher.py:199
 msgid "Wake Word:"
-msgstr ""
+msgstr "Gair Deffro:"
 
 #: build/lib/launcher.py:205 launcher.py:205
 msgid "Speech Recognition (Vosk)"
-msgstr ""
+msgstr "Adnabod Lleferydd (Vosk)"
 
 #: build/lib/launcher.py:211 launcher.py:211
 msgid "Active Model:"
-msgstr ""
+msgstr "Model Gweithredol:"
 
 #: build/lib/launcher.py:225 launcher.py:225
 msgid "Browse Folder"
-msgstr ""
+msgstr "Pori Ffolder"
 
 #: build/lib/launcher.py:226 build/lib/launcher.py:263 launcher.py:226
 #: launcher.py:263
 msgid "Download from URL"
-msgstr ""
+msgstr "Lawrlwytho o URL"
 
 #: build/lib/launcher.py:227 build/lib/launcher_vocabulary_tab.py:85
 #: launcher.py:227 launcher_vocabulary_tab.py:85
 msgid "Delete Selected"
-msgstr ""
+msgstr "Dileu'r Dewis"
 
 #: build/lib/launcher.py:234 launcher.py:234
 msgid "Text-to-Speech (Piper)"
-msgstr ""
+msgstr "Testun-i-Lais (Piper)"
 
 #: build/lib/launcher.py:240 launcher.py:240
 msgid "Active Voice:"
-msgstr ""
+msgstr "Llais Gweithredol:"
 
 #: build/lib/launcher.py:257 launcher.py:257
 msgid "Delete Voice"
-msgstr ""
+msgstr "Dileu Llais"
 
 #: build/lib/launcher.py:260 launcher.py:260
 msgid "Import New Voice"
-msgstr ""
+msgstr "Mewnforio Llais Newydd"
 
 #: build/lib/launcher.py:264 launcher.py:264
 msgid "Load from File (.onnx)"
-msgstr ""
+msgstr "Llwytho o Ffeil (.onnx)"
 
 #: build/lib/launcher.py:328 build/lib/launcher.py:339
 #: build/lib/launcher_corrections_tab.py:198
@@ -160,15 +160,15 @@ msgstr ""
 
 #: build/lib/launcher.py:339 launcher.py:339
 msgid "TuxTalks is already running."
-msgstr ""
+msgstr "Mae TuxTalks eisoes yn rhedeg."
 
 #: build/lib/launcher.py:343 launcher.py:343
 msgid "Unsaved Changes"
-msgstr ""
+msgstr "Newidiadau Heb eu Cadw"
 
 #: build/lib/launcher.py:343 launcher.py:343
 msgid "You have unsaved changes. Save before starting?"
-msgstr ""
+msgstr "Mae gennych newidiadau heb eu cadw. Cadw cyn cychwyn?"
 
 #: build/lib/launcher.py:383 launcher.py:383
 msgid "No Terminal Found"
@@ -186,7 +186,7 @@ msgstr "Wedi Stopio"
 
 #: build/lib/launcher.py:392 launcher.py:392
 msgid "Assistant stopped."
-msgstr ""
+msgstr "Cynorthwyydd wedi stopio."
 
 #: build/lib/launcher.py:415 build/lib/launcher_corrections_tab.py:292
 #: build/lib/launcher_speech_tab.py:126 launcher.py:415
@@ -196,7 +196,7 @@ msgstr "Wedi Cadw"
 
 #: build/lib/launcher.py:415 launcher.py:415
 msgid "Configuration saved."
-msgstr ""
+msgstr "Wedi cadw'r cyfluniad."
 
 #: build/lib/launcher.py:432 launcher.py:432
 msgid "Downloading"
@@ -291,15 +291,15 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:39 launcher_corrections_tab.py:39
 msgid "When I hear..."
-msgstr ""
+msgstr "Pan fyddaf yn clywed..."
 
 #: build/lib/launcher_corrections_tab.py:40 launcher_corrections_tab.py:40
 msgid "I should understand..."
-msgstr ""
+msgstr "Dylwn i ddeall..."
 
 #: build/lib/launcher_corrections_tab.py:54 launcher_corrections_tab.py:54
 msgid "Test & Train"
-msgstr ""
+msgstr "Profi a Hyfforddi"
 
 #: build/lib/launcher_corrections_tab.py:60
 #: build/lib/launcher_corrections_tab.py:256
@@ -312,37 +312,37 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:64 launcher_corrections_tab.py:64
 msgid "Dur:"
-msgstr ""
+msgstr "Hyd:"
 
 #: build/lib/launcher_corrections_tab.py:73 launcher_corrections_tab.py:73
 msgid "Add as Correction"
-msgstr ""
+msgstr "Ychwanegu fel Cywiriad"
 
 #: build/lib/launcher_corrections_tab.py:78 launcher_corrections_tab.py:78
 msgid "Targeted Train"
-msgstr ""
+msgstr "Hyfforddiant Targedig"
 
 #: build/lib/launcher_corrections_tab.py:79 launcher_corrections_tab.py:79
 msgid "Basic"
-msgstr ""
+msgstr "Sylfaenol"
 
 #: build/lib/launcher_corrections_tab.py:80 launcher_corrections_tab.py:80
 msgid "Advanced"
-msgstr ""
+msgstr "Uwch"
 
 #: build/lib/launcher_corrections_tab.py:83 launcher_corrections_tab.py:83
 msgid "Recent Ignored/Missed Commands"
-msgstr ""
+msgstr "Gorchmynion diweddar a anwybyddwyd/methwyd"
 
 #: build/lib/launcher_corrections_tab.py:89 launcher_corrections_tab.py:89
 msgid "Use Selected"
-msgstr ""
+msgstr "Defnyddio'r Dewis"
 
 #: build/lib/launcher_corrections_tab.py:91
 #: build/lib/launcher_vocabulary_tab.py:86 launcher_corrections_tab.py:91
 #: launcher_vocabulary_tab.py:86
 msgid "Clear All"
-msgstr ""
+msgstr "Clirio Popeth"
 
 #: build/lib/launcher_corrections_tab.py:92 build/lib/launcher_games_tab.py:801
 #: launcher_corrections_tab.py:92 launcher_games_tab.py:801
@@ -355,11 +355,11 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:136 launcher_corrections_tab.py:136
 msgid "Delete selected correction?"
-msgstr ""
+msgstr "Dileu'r cywiriad a ddewiswyd?"
 
 #: build/lib/launcher_corrections_tab.py:198 launcher_corrections_tab.py:198
 msgid "Test a phrase first."
-msgstr ""
+msgstr "Profi ymadrodd yn gyntaf."
 
 #: build/lib/launcher_corrections_tab.py:231 launcher_corrections_tab.py:231
 msgid "Model not found. Please check General settings."
@@ -367,19 +367,19 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:283 launcher_corrections_tab.py:283
 msgid "Perfect match! No training needed."
-msgstr ""
+msgstr "Gêm berffaith! Dim angen hyfforddiant."
 
 #: build/lib/launcher_corrections_tab.py:292 launcher_corrections_tab.py:292
 msgid "Correction added."
-msgstr ""
+msgstr "Cywiriad wedi'i ychwanegu."
 
 #: build/lib/launcher_games_tab.py:29 launcher_games_tab.py:29
 msgid "Press the key combination on your keyboard:"
-msgstr ""
+msgstr "Pwyswch y cyfuniad o fysellau ar eich bysellfwrdd:"
 
 #: build/lib/launcher_games_tab.py:35 launcher_games_tab.py:35
 msgid "(Example: Ctrl + Alt + H)"
-msgstr ""
+msgstr "(Enghraifft: Ctrl + Alt + H)"
 
 #: build/lib/launcher_games_tab.py:40 build/lib/launcher_games_tab.py:2078
 #: build/lib/launcher_player_tab.py:201 launcher_games_tab.py:40
@@ -397,7 +397,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:140 launcher_games_tab.py:140
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: build/lib/launcher_games_tab.py:141 launcher_games_tab.py:141
 msgid "Process Name"
@@ -405,7 +405,7 @@ msgstr "Enw Proses"
 
 #: build/lib/launcher_games_tab.py:142 launcher_games_tab.py:142
 msgid "Command Line / Path"
-msgstr ""
+msgstr "Llinell Orchymyn / Llwybr"
 
 #: build/lib/launcher_games_tab.py:162 launcher_games_tab.py:162
 msgid "🔄 Scan Processes"
@@ -417,28 +417,28 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:172 launcher_games_tab.py:172
 msgid "Game Type:"
-msgstr ""
+msgstr "Math o Gêm:"
 
 #: build/lib/launcher_games_tab.py:180 launcher_games_tab.py:180
 msgid "Game Name:"
-msgstr ""
+msgstr "Enw Gêm:"
 
 #: build/lib/launcher_games_tab.py:185 launcher_games_tab.py:185
 msgid "Process Name:"
-msgstr ""
+msgstr "Enw Proses:"
 
 #: build/lib/launcher_games_tab.py:190 launcher_games_tab.py:190
 msgid "Binding Profile Name:"
-msgstr ""
+msgstr "Enw Proffil Rhwymo:"
 
 #: build/lib/launcher_games_tab.py:196 build/lib/launcher_games_tab.py:858
 #: launcher_games_tab.py:196 launcher_games_tab.py:858
 msgid "Runtime Environment:"
-msgstr ""
+msgstr "Amgylchedd Amser Rhedeg:"
 
 #: build/lib/launcher_games_tab.py:205 launcher_games_tab.py:205
 msgid "Bindings Path:"
-msgstr ""
+msgstr "Llwybr Rhwymiadau:"
 
 #: build/lib/launcher_games_tab.py:212 build/lib/launcher_games_tab.py:640
 #: build/lib/launcher_games_tab.py:884 build/lib/launcher_player_tab.py:143
@@ -457,7 +457,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "Scan Results"
-msgstr ""
+msgstr "Canlyniadau Sgan"
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "No standard binding files found for this game type."
@@ -465,19 +465,19 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:505 launcher_games_tab.py:505
 msgid "Process Name required."
-msgstr ""
+msgstr "Angen enw proses."
 
 #: build/lib/launcher_games_tab.py:629 launcher_games_tab.py:629
 msgid "Profile Name (Variant):"
-msgstr ""
+msgstr "Enw Proffil (Amrywiol):"
 
 #: build/lib/launcher_games_tab.py:634 launcher_games_tab.py:634
 msgid "Bindings File Path (Optional):"
-msgstr ""
+msgstr "Llwybr Ffeil Rhwymiadau (Dewisol):"
 
 #: build/lib/launcher_games_tab.py:643 launcher_games_tab.py:643
 msgid "Create Profile"
-msgstr ""
+msgstr "Creu Proffil"
 
 #: build/lib/launcher_games_tab.py:664 launcher_games_tab.py:664
 msgid "Profile Name required."
@@ -485,43 +485,43 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:717 launcher_games_tab.py:717
 msgid "Game Integration Status"
-msgstr ""
+msgstr "Statws Integreiddio Gêm"
 
 #: build/lib/launcher_games_tab.py:724 launcher_games_tab.py:724
 msgid "Game:"
-msgstr ""
+msgstr "Gêm:"
 
 #: build/lib/launcher_games_tab.py:730 launcher_games_tab.py:730
 msgid "Binds:"
-msgstr ""
+msgstr "Rhwymiadau:"
 
 #: build/lib/launcher_games_tab.py:741 launcher_games_tab.py:741
 msgid "Macro Profile:"
-msgstr ""
+msgstr "Proffil Macro:"
 
 #: build/lib/launcher_games_tab.py:753 launcher_games_tab.py:753
 msgid "➕"
-msgstr ""
+msgstr "➕"
 
 #: build/lib/launcher_games_tab.py:760 launcher_games_tab.py:760
 msgid "✏"
-msgstr ""
+msgstr "✏"
 
 #: build/lib/launcher_games_tab.py:767 launcher_games_tab.py:767
 msgid "🗑"
-msgstr ""
+msgstr "🗑"
 
 #: build/lib/launcher_games_tab.py:781 launcher_games_tab.py:781
 msgid "Runtime Status:"
-msgstr ""
+msgstr "Statws Amser Rhedeg:"
 
 #: build/lib/launcher_games_tab.py:787 launcher_games_tab.py:787
 msgid "Enable Game Integration"
-msgstr ""
+msgstr "Galluogi Integreiddio Gêm"
 
 #: build/lib/launcher_games_tab.py:795 launcher_games_tab.py:795
 msgid "Filter:"
-msgstr ""
+msgstr "Hidlo:"
 
 #: build/lib/launcher_games_tab.py:802 launcher_games_tab.py:802
 msgid "Restore"
@@ -533,32 +533,32 @@ msgstr "Copi Wrth Gefn"
 
 #: build/lib/launcher_games_tab.py:809 launcher_games_tab.py:809
 msgid "Add Game"
-msgstr ""
+msgstr "Ychwanegu Gêm"
 
 #: build/lib/launcher_games_tab.py:810 build/lib/launcher_games_tab.py:1510
 #: launcher_games_tab.py:810 launcher_games_tab.py:1510
 msgid "Edit Game"
-msgstr ""
+msgstr "Golygu Gêm"
 
 #: build/lib/launcher_games_tab.py:811 launcher_games_tab.py:811
 msgid "Remove Game"
-msgstr ""
+msgstr "Tynnu Gêm"
 
 #: build/lib/launcher_games_tab.py:813 launcher_games_tab.py:813
 msgid "Add Bind"
-msgstr ""
+msgstr "Ychwanegu Rhwymiad"
 
 #: build/lib/launcher_games_tab.py:814 launcher_games_tab.py:814
 msgid "Edit Bind"
-msgstr ""
+msgstr "Golygu Rhwymiad"
 
 #: build/lib/launcher_games_tab.py:815 launcher_games_tab.py:815
 msgid "Remove Bind"
-msgstr ""
+msgstr "Tynnu Rhwymiad"
 
 #: build/lib/launcher_games_tab.py:816 launcher_games_tab.py:816
 msgid "Default Binds"
-msgstr ""
+msgstr "Rhwymiadau Diofyn"
 
 #: build/lib/launcher_games_tab.py:828 launcher_games_tab.py:828
 msgid "Bindings"
@@ -566,31 +566,31 @@ msgstr "Rhwymiadau"
 
 #: build/lib/launcher_games_tab.py:835 launcher_games_tab.py:835
 msgid "Profile Settings"
-msgstr ""
+msgstr "Gosodiadau Proffil"
 
 #: build/lib/launcher_games_tab.py:840 launcher_games_tab.py:840
 msgid "Profile Configuration"
-msgstr ""
+msgstr "Cyfluniad Proffil"
 
 #: build/lib/launcher_games_tab.py:847 launcher_games_tab.py:847
 msgid "Process Name (e.g. X4.exe):"
-msgstr ""
+msgstr "Enw Proses (e.g. X4.exe):"
 
 #: build/lib/launcher_games_tab.py:852 launcher_games_tab.py:852
 msgid "Bindings File Path:"
-msgstr ""
+msgstr "Llwybr Ffeil Rhwymiadau:"
 
 #: build/lib/launcher_games_tab.py:855 launcher_games_tab.py:855
 msgid " Browse "
-msgstr ""
+msgstr "Pori"
 
 #: build/lib/launcher_games_tab.py:864 launcher_games_tab.py:864
 msgid "Save Settings"
-msgstr ""
+msgstr "Cadw Gosodiadau"
 
 #: build/lib/launcher_games_tab.py:867 launcher_games_tab.py:867
 msgid "External Audio Assets"
-msgstr ""
+msgstr "Asedau Audio Allanol"
 
 #: build/lib/launcher_games_tab.py:872 launcher_games_tab.py:872
 msgid ""
@@ -600,7 +600,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:879 launcher_games_tab.py:879
 msgid "Audio Directory:"
-msgstr ""
+msgstr "Cyfeiriadur Audio:"
 
 #: build/lib/launcher_games_tab.py:891 launcher_games_tab.py:891
 msgid "X4 Foundations Controller Sync"
@@ -626,7 +626,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:903 launcher_games_tab.py:903
 msgid "Active Profile Bindings"
-msgstr ""
+msgstr "Rhwymiadau Proffil Gweithredol"
 
 #: build/lib/launcher_games_tab.py:910 launcher_games_tab.py:910
 msgid "Voice Command"
@@ -642,11 +642,11 @@ msgstr "Bysell Fapio"
 
 #: build/lib/launcher_games_tab.py:923 launcher_games_tab.py:923
 msgid "Modify Trigger"
-msgstr ""
+msgstr "Addasu Sbardun"
 
 #: build/lib/launcher_games_tab.py:924 launcher_games_tab.py:924
 msgid "Clear Trigger"
-msgstr ""
+msgstr "Clirio Sbardun"
 
 #: build/lib/launcher_games_tab.py:936 launcher_games_tab.py:936
 msgid "Macros (Beta)"
@@ -654,7 +654,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:943 launcher_games_tab.py:943
 msgid "Defined Macros"
-msgstr ""
+msgstr "Macros Diffiniedig"
 
 #: build/lib/launcher_games_tab.py:949 launcher_games_tab.py:949
 msgid "New"
@@ -671,19 +671,19 @@ msgstr "Sbardunau Llais"
 
 #: build/lib/launcher_games_tab.py:956 launcher_games_tab.py:956
 msgid "Source"
-msgstr ""
+msgstr "Ffynhonnell"
 
 #: build/lib/launcher_games_tab.py:967 launcher_games_tab.py:967
 msgid "Macro Steps"
-msgstr ""
+msgstr "Camau Macro"
 
 #: build/lib/launcher_games_tab.py:976 launcher_games_tab.py:976
 msgid "↑"
-msgstr ""
+msgstr "↑"
 
 #: build/lib/launcher_games_tab.py:977 launcher_games_tab.py:977
 msgid "↓"
-msgstr ""
+msgstr "↓"
 
 #: build/lib/launcher_games_tab.py:978 launcher_games_tab.py:978
 msgid "Run"
@@ -691,19 +691,19 @@ msgstr "Rhedeg"
 
 #: build/lib/launcher_games_tab.py:982 launcher_games_tab.py:982
 msgid "Action"
-msgstr ""
+msgstr "Gweithred"
 
 #: build/lib/launcher_games_tab.py:983 launcher_games_tab.py:983
 msgid "Key"
-msgstr ""
+msgstr "Bysell"
 
 #: build/lib/launcher_games_tab.py:984 launcher_games_tab.py:984
 msgid "Delay"
-msgstr ""
+msgstr "Oedi"
 
 #: build/lib/launcher_games_tab.py:995 launcher_games_tab.py:995
 msgid "Reference File"
-msgstr ""
+msgstr "Ffeil Gyfeiriol"
 
 #: build/lib/launcher_games_tab.py:1311 launcher_games_tab.py:1311
 msgid "Complete"
@@ -725,7 +725,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1340 launcher_games_tab.py:1340
 msgid "Add Command"
-msgstr ""
+msgstr "Ychwanegu Gorchymyn"
 
 #: build/lib/launcher_games_tab.py:1453 launcher_games_tab.py:1453
 msgid "No game group selected."
@@ -741,12 +741,12 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1488 launcher_games_tab.py:1488
 msgid "Select a row to delete."
-msgstr ""
+msgstr "Dewiswch res i'w dileu."
 
 #: build/lib/launcher_games_tab.py:1510 build/lib/launcher_games_tab.py:1628
 #: launcher_games_tab.py:1510 launcher_games_tab.py:1628
 msgid "No profile selected."
-msgstr ""
+msgstr "Dim proffil wedi'i ddewis."
 
 #: build/lib/launcher_games_tab.py:1524 launcher_games_tab.py:1524
 msgid "Name already taken."
@@ -754,7 +754,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid "Import Defaults"
-msgstr ""
+msgstr "Mewnforio Diofyn"
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid ""
@@ -790,7 +790,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1818 launcher_games_tab.py:1818
 msgid "Please select a game first."
-msgstr ""
+msgstr "Dewiswch gêm yn gyntaf."
 
 #: build/lib/launcher_games_tab.py:1833 build/lib/launcher_games_tab.py:1891
 #: launcher_games_tab.py:1833 launcher_games_tab.py:1891
@@ -800,19 +800,19 @@ msgstr ""
 #: build/lib/launcher_games_tab.py:1833 build/lib/launcher_games_tab.py:1891
 #: launcher_games_tab.py:1833 launcher_games_tab.py:1891
 msgid "Profile name cannot be empty."
-msgstr ""
+msgstr "Ni all enw proffil fod yn wag."
 
 #: build/lib/launcher_games_tab.py:1852 launcher_games_tab.py:1852
 msgid "Failed to create macro profile."
-msgstr ""
+msgstr "Methwyd â chreu proffil macro."
 
 #: build/lib/launcher_games_tab.py:1908 launcher_games_tab.py:1908
 msgid "Failed to rename macro profile."
-msgstr ""
+msgstr "Methwyd ag ail-enwi proffil macro."
 
 #: build/lib/launcher_games_tab.py:1953 launcher_games_tab.py:1953
 msgid "Failed to delete macro profile."
-msgstr ""
+msgstr "Methwyd â dileu proffil macro."
 
 #: build/lib/launcher_games_tab.py:1976 launcher_games_tab.py:1976
 msgid "No game profile loaded."
@@ -895,7 +895,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:2318 launcher_games_tab.py:2318
 msgid "Action:"
-msgstr ""
+msgstr "Gweithred:"
 
 #: build/lib/launcher_games_tab.py:2338 launcher_games_tab.py:2338
 msgid "Delay after (ms):"
@@ -1065,7 +1065,7 @@ msgstr ""
 
 #: build/lib/launcher_player_tab.py:17 launcher_player_tab.py:17
 msgid "Player"
-msgstr ""
+msgstr "Chwaraewr"
 
 #: build/lib/launcher_player_tab.py:23 launcher_player_tab.py:23
 msgid "Select Player:"
@@ -1182,7 +1182,7 @@ msgstr ""
 
 #: build/lib/launcher_vocabulary_tab.py:44 launcher_vocabulary_tab.py:44
 msgid "↻"
-msgstr ""
+msgstr "↻"
 
 #: build/lib/launcher_vocabulary_tab.py:46 launcher_vocabulary_tab.py:46
 msgid "Import Selected"

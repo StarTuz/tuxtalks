@@ -36,11 +36,11 @@ msgstr "Control de Voz Avanzado para Linux"
 
 #: launcher.py:73
 msgid "Theme:"
-msgstr ""
+msgstr "Tema:"
 
 #: launcher.py:112
 msgid "Scale:"
-msgstr ""
+msgstr "Escala:"
 
 #: launcher.py:122
 msgid "Start Assistant"
@@ -92,51 +92,51 @@ msgstr "Ayuda"
 
 #: launcher.py:192
 msgid "Wake Word Settings"
-msgstr ""
+msgstr "Configuración de Palabra de Activación"
 
 #: launcher.py:195
 msgid "Wake Word:"
-msgstr ""
+msgstr "Palabra de Activación:"
 
 #: launcher.py:201
 msgid "Speech Recognition (Vosk)"
-msgstr ""
+msgstr "Reconocimiento de Voz (Vosk)"
 
 #: launcher.py:207
 msgid "Active Model:"
-msgstr ""
+msgstr "Modelo Activo:"
 
 #: launcher.py:221
 msgid "Browse Folder"
-msgstr ""
+msgstr "Explorar Carpeta"
 
 #: launcher.py:222 launcher.py:259
 msgid "Download from URL"
-msgstr ""
+msgstr "Descargar desde URL"
 
 #: launcher.py:223 launcher_vocabulary_tab.py:85
 msgid "Delete Selected"
-msgstr ""
+msgstr "Eliminar Seleccionado"
 
 #: launcher.py:230
 msgid "Text-to-Speech (Piper)"
-msgstr ""
+msgstr "Texto a Voz (Piper)"
 
 #: launcher.py:236
 msgid "Active Voice:"
-msgstr ""
+msgstr "Voz Activa:"
 
 #: launcher.py:253
 msgid "Delete Voice"
-msgstr ""
+msgstr "Eliminar Voz"
 
 #: launcher.py:256
 msgid "Import New Voice"
-msgstr ""
+msgstr "Importar Nueva Voz"
 
 #: launcher.py:260
 msgid "Load from File (.onnx)"
-msgstr ""
+msgstr "Cargar desde Archivo (.onnx)"
 
 #: launcher.py:324 launcher.py:335 launcher_corrections_tab.py:198
 #: launcher_games_tab.py:1453 launcher_games_tab.py:1464
@@ -148,7 +148,7 @@ msgstr "Información"
 
 #: launcher.py:324
 msgid "Scaling saved. Restart required for full effect."
-msgstr ""
+msgstr "Escalado guardado. Se requiere reiniciar para que surta efecto."
 
 #: launcher.py:335
 msgid "TuxTalks is already running."
@@ -229,7 +229,7 @@ msgstr ""
 
 #: launcher.py:471
 msgid "Failed to install voice."
-msgstr ""
+msgstr "Error al instalar la voz."
 
 #: launcher.py:474
 msgid "Importing"
@@ -237,11 +237,11 @@ msgstr "Importando"
 
 #: launcher.py:474
 msgid "Downloading voice in background..."
-msgstr ""
+msgstr "Descargando voz en segundo plano..."
 
 #: launcher.py:490
 msgid "Failed to import voice."
-msgstr ""
+msgstr "Error al importar la voz."
 
 #: launcher_corrections_tab.py:15
 msgid "Corrections"
@@ -266,15 +266,15 @@ msgstr ""
 
 #: launcher_corrections_tab.py:39
 msgid "When I hear..."
-msgstr ""
+msgstr "Cuando escucho..."
 
 #: launcher_corrections_tab.py:40
 msgid "I should understand..."
-msgstr ""
+msgstr "Debería entender..."
 
 #: launcher_corrections_tab.py:54
 msgid "Test & Train"
-msgstr ""
+msgstr "Probar y Entrenar"
 
 #: launcher_corrections_tab.py:60 launcher_corrections_tab.py:256
 #: launcher_corrections_tab.py:262 launcher_corrections_tab.py:281
@@ -283,35 +283,35 @@ msgstr ""
 
 #: launcher_corrections_tab.py:64
 msgid "Dur:"
-msgstr ""
+msgstr "Dur:"
 
 #: launcher_corrections_tab.py:73
 msgid "Add as Correction"
-msgstr ""
+msgstr "Agregar como Corrección"
 
 #: launcher_corrections_tab.py:78
 msgid "Targeted Train"
-msgstr ""
+msgstr "Entrenamiento Dirigido"
 
 #: launcher_corrections_tab.py:79
 msgid "Basic"
-msgstr ""
+msgstr "Básico"
 
 #: launcher_corrections_tab.py:80
 msgid "Advanced"
-msgstr ""
+msgstr "Avanzado"
 
 #: launcher_corrections_tab.py:83
 msgid "Recent Ignored/Missed Commands"
-msgstr ""
+msgstr "Comandos Recientes Ignorados/Perdidos"
 
 #: launcher_corrections_tab.py:89
 msgid "Use Selected"
-msgstr ""
+msgstr "Usar Seleccionado"
 
 #: launcher_corrections_tab.py:91 launcher_vocabulary_tab.py:86
 msgid "Clear All"
-msgstr ""
+msgstr "Limpiar Todo"
 
 #: launcher_corrections_tab.py:92 launcher_games_tab.py:801
 msgid "Refresh"
@@ -343,11 +343,11 @@ msgstr "Corrección agregada."
 
 #: launcher_games_tab.py:29
 msgid "Press the key combination on your keyboard:"
-msgstr ""
+msgstr "Presiona la combinación de teclas en tu teclado:"
 
 #: launcher_games_tab.py:35
 msgid "(Example: Ctrl + Alt + H)"
-msgstr ""
+msgstr "(Ejemplo: Ctrl + Alt + H)"
 
 #: launcher_games_tab.py:40 launcher_games_tab.py:2078
 #: launcher_player_tab.py:201
@@ -372,7 +372,7 @@ msgstr "Nombre del Proceso"
 
 #: launcher_games_tab.py:142
 msgid "Command Line / Path"
-msgstr ""
+msgstr "Línea de Comandos / Ruta"
 
 #: launcher_games_tab.py:162
 msgid "🔄 Scan Processes"
@@ -384,27 +384,27 @@ msgstr ""
 
 #: launcher_games_tab.py:172
 msgid "Game Type:"
-msgstr ""
+msgstr "Tipo de Juego:"
 
 #: launcher_games_tab.py:180
 msgid "Game Name:"
-msgstr ""
+msgstr "Nombre del Juego:"
 
 #: launcher_games_tab.py:185
 msgid "Process Name:"
-msgstr ""
+msgstr "Nombre del Proceso:"
 
 #: launcher_games_tab.py:190
 msgid "Binding Profile Name:"
-msgstr ""
+msgstr "Nombre de Perfil de Asignaciones:"
 
 #: launcher_games_tab.py:196 launcher_games_tab.py:858
 msgid "Runtime Environment:"
-msgstr ""
+msgstr "Entorno de Ejecución:"
 
 #: launcher_games_tab.py:205
 msgid "Bindings Path:"
-msgstr ""
+msgstr "Ruta de Asignaciones:"
 
 #: launcher_games_tab.py:212 launcher_games_tab.py:640
 #: launcher_games_tab.py:884 launcher_player_tab.py:143
@@ -421,11 +421,11 @@ msgstr ""
 
 #: launcher_games_tab.py:326
 msgid "Scan Results"
-msgstr ""
+msgstr "Resultados del Escaneo"
 
 #: launcher_games_tab.py:326
 msgid "No standard binding files found for this game type."
-msgstr ""
+msgstr "No se encontraron archivos de asignación estándar para este tipo de juego."
 
 #: launcher_games_tab.py:505
 msgid "Process Name required."
@@ -433,15 +433,15 @@ msgstr "Nombre de proceso requerido."
 
 #: launcher_games_tab.py:629
 msgid "Profile Name (Variant):"
-msgstr ""
+msgstr "Nombre de Perfil (Variante):"
 
 #: launcher_games_tab.py:634
 msgid "Bindings File Path (Optional):"
-msgstr ""
+msgstr "Ruta del Archivo de Asignaciones (Opcional):"
 
 #: launcher_games_tab.py:643
 msgid "Create Profile"
-msgstr ""
+msgstr "Crear Perfil"
 
 #: launcher_games_tab.py:664
 msgid "Profile Name required."
@@ -449,19 +449,19 @@ msgstr ""
 
 #: launcher_games_tab.py:717
 msgid "Game Integration Status"
-msgstr ""
+msgstr "Estado de Integración de Juego"
 
 #: launcher_games_tab.py:724
 msgid "Game:"
-msgstr ""
+msgstr "Juego:"
 
 #: launcher_games_tab.py:730
 msgid "Binds:"
-msgstr ""
+msgstr "Asignaciones:"
 
 #: launcher_games_tab.py:741
 msgid "Macro Profile:"
-msgstr ""
+msgstr "Perfil de Macros:"
 
 #: launcher_games_tab.py:753
 msgid "➕"
@@ -477,7 +477,7 @@ msgstr "🗑"
 
 #: launcher_games_tab.py:781
 msgid "Runtime Status:"
-msgstr ""
+msgstr "Estado de Ejecución:"
 
 #: launcher_games_tab.py:787
 msgid "Enable Game Integration"
@@ -485,7 +485,7 @@ msgstr "Habilitar Integración de Juegos"
 
 #: launcher_games_tab.py:795
 msgid "Filter:"
-msgstr ""
+msgstr "Filtro:"
 
 #: launcher_games_tab.py:802
 msgid "Restore"
@@ -497,31 +497,31 @@ msgstr "Copia de seguridad"
 
 #: launcher_games_tab.py:809
 msgid "Add Game"
-msgstr ""
+msgstr "Agregar Juego"
 
 #: launcher_games_tab.py:810 launcher_games_tab.py:1510
 msgid "Edit Game"
-msgstr ""
+msgstr "Editar Juego"
 
 #: launcher_games_tab.py:811
 msgid "Remove Game"
-msgstr ""
+msgstr "Eliminar Juego"
 
 #: launcher_games_tab.py:813
 msgid "Add Bind"
-msgstr ""
+msgstr "Agregar Asignación"
 
 #: launcher_games_tab.py:814
 msgid "Edit Bind"
-msgstr ""
+msgstr "Editar Asignación"
 
 #: launcher_games_tab.py:815
 msgid "Remove Bind"
-msgstr ""
+msgstr "Eliminar Asignación"
 
 #: launcher_games_tab.py:816
 msgid "Default Binds"
-msgstr ""
+msgstr "Asignaciones Predeterminadas"
 
 #: launcher_games_tab.py:828
 msgid "Bindings"
@@ -529,19 +529,19 @@ msgstr "Asignaciones"
 
 #: launcher_games_tab.py:835
 msgid "Profile Settings"
-msgstr ""
+msgstr "Configuración de Perfil"
 
 #: launcher_games_tab.py:840
 msgid "Profile Configuration"
-msgstr ""
+msgstr "Configuración de Perfil"
 
 #: launcher_games_tab.py:847
 msgid "Process Name (e.g. X4.exe):"
-msgstr ""
+msgstr "Nombre del Proceso (ej. X4.exe):"
 
 #: launcher_games_tab.py:852
 msgid "Bindings File Path:"
-msgstr ""
+msgstr "Ruta del Archivo de Asignaciones:"
 
 #: launcher_games_tab.py:855
 msgid " Browse "
@@ -549,11 +549,11 @@ msgstr "Examinar"
 
 #: launcher_games_tab.py:864
 msgid "Save Settings"
-msgstr ""
+msgstr "Guardar Configuración"
 
 #: launcher_games_tab.py:867
 msgid "External Audio Assets"
-msgstr ""
+msgstr "Recursos de Audio Externos"
 
 #: launcher_games_tab.py:872
 msgid ""
@@ -563,7 +563,7 @@ msgstr ""
 
 #: launcher_games_tab.py:879
 msgid "Audio Directory:"
-msgstr ""
+msgstr "Directorio de Audio:"
 
 #: launcher_games_tab.py:891
 msgid "X4 Foundations Controller Sync"
@@ -589,7 +589,7 @@ msgstr ""
 
 #: launcher_games_tab.py:903
 msgid "Active Profile Bindings"
-msgstr ""
+msgstr "Asignaciones del Perfil Activo"
 
 #: launcher_games_tab.py:910
 msgid "Voice Command"
@@ -605,11 +605,11 @@ msgstr "Tecla Asignada"
 
 #: launcher_games_tab.py:923
 msgid "Modify Trigger"
-msgstr ""
+msgstr "Modificar Activador"
 
 #: launcher_games_tab.py:924
 msgid "Clear Trigger"
-msgstr ""
+msgstr "Limpiar Activador"
 
 #: launcher_games_tab.py:936
 msgid "Macros (Beta)"
@@ -617,7 +617,7 @@ msgstr ""
 
 #: launcher_games_tab.py:943
 msgid "Defined Macros"
-msgstr ""
+msgstr "Macros Definidas"
 
 #: launcher_games_tab.py:949
 msgid "New"
@@ -665,7 +665,7 @@ msgstr "Retraso"
 
 #: launcher_games_tab.py:995
 msgid "Reference File"
-msgstr ""
+msgstr "Archivo de Referencia"
 
 #: launcher_games_tab.py:1311
 msgid "Complete"
@@ -687,7 +687,7 @@ msgstr ""
 
 #: launcher_games_tab.py:1340
 msgid "Add Command"
-msgstr ""
+msgstr "Agregar Comando"
 
 #: launcher_games_tab.py:1453
 msgid "No game group selected."
@@ -695,11 +695,11 @@ msgstr ""
 
 #: launcher_games_tab.py:1464
 msgid "No profiles found in this group."
-msgstr ""
+msgstr "No se encontraron perfiles en este grupo."
 
 #: launcher_games_tab.py:1480
 msgid "Failed to remove profiles."
-msgstr ""
+msgstr "Error al eliminar perfiles."
 
 #: launcher_games_tab.py:1488
 msgid "Select a row to delete."
@@ -711,11 +711,11 @@ msgstr "Ningún perfil seleccionado."
 
 #: launcher_games_tab.py:1524
 msgid "Name already taken."
-msgstr ""
+msgstr "El nombre ya está en uso."
 
 #: launcher_games_tab.py:1593
 msgid "Import Defaults"
-msgstr ""
+msgstr "Importar Predeterminados"
 
 #: launcher_games_tab.py:1593
 msgid ""
@@ -726,19 +726,19 @@ msgstr ""
 
 #: launcher_games_tab.py:1599 launcher_games_tab.py:1608
 msgid "Import Complete"
-msgstr ""
+msgstr "Importación completada"
 
 #: launcher_games_tab.py:1599
 msgid "No profiles found. (Check console for path/parsing errors)"
-msgstr ""
+msgstr "No se encontraron perfiles. (Consulte la consola para ver errores de ruta/análisis)"
 
 #: launcher_games_tab.py:1608
 msgid "No profiles found."
-msgstr ""
+msgstr "No se encontraron perfiles."
 
 #: launcher_games_tab.py:1617
 msgid "Please select a Game grouping first."
-msgstr ""
+msgstr "Seleccione primero un grupo de Juego."
 
 #: launcher_games_tab.py:1636
 msgid "Failed to remove profile."
@@ -778,11 +778,11 @@ msgstr ""
 
 #: launcher_games_tab.py:1988
 msgid "Internal Error: Active bindings path is unknown."
-msgstr ""
+msgstr "Error interno: la ruta de las asignaciones activas es desconocida."
 
 #: launcher_games_tab.py:2005
 msgid "Select an action to rebind."
-msgstr ""
+msgstr "Seleccione una acción para reasignar."
 
 #: launcher_games_tab.py:2008
 msgid "⚠️ Game is Running"
@@ -852,7 +852,7 @@ msgstr ""
 
 #: launcher_games_tab.py:2318
 msgid "Action:"
-msgstr ""
+msgstr "Acción:"
 
 #: launcher_games_tab.py:2338
 msgid "Delay after (ms):"
@@ -1020,7 +1020,7 @@ msgstr ""
 
 #: launcher_player_tab.py:17
 msgid "Player"
-msgstr ""
+msgstr "Reproductor"
 
 #: launcher_player_tab.py:23
 msgid "Select Player:"

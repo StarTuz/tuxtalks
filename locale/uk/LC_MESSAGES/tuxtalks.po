@@ -21,15 +21,15 @@ msgstr ""
 
 #: build/lib/launcher.py:59 launcher.py:59
 msgid "🐧"
-msgstr ""
+msgstr "🐧"
 
 #: build/lib/launcher.py:68 launcher.py:68
 msgid "TuxTalks"
-msgstr ""
+msgstr "TuxTalks"
 
 #: build/lib/launcher.py:69 launcher.py:69
 msgid " Settings"
-msgstr ""
+msgstr "Налаштування"
 
 #: build/lib/launcher.py:72 launcher.py:72
 msgid "Advanced Voice Control for Linux"
@@ -37,11 +37,11 @@ msgstr "Розширене Голосове Керування для Linux"
 
 #: build/lib/launcher.py:77 launcher.py:77
 msgid "Theme:"
-msgstr ""
+msgstr "Тема:"
 
 #: build/lib/launcher.py:116 launcher.py:116
 msgid "Scale:"
-msgstr ""
+msgstr "Масштаб:"
 
 #: build/lib/launcher.py:126 launcher.py:126
 msgid "Start Assistant"
@@ -93,53 +93,53 @@ msgstr "Допомога"
 
 #: build/lib/launcher.py:196 launcher.py:196
 msgid "Wake Word Settings"
-msgstr ""
+msgstr "Налаштування слова активації"
 
 #: build/lib/launcher.py:199 launcher.py:199
 msgid "Wake Word:"
-msgstr ""
+msgstr "Слово активації:"
 
 #: build/lib/launcher.py:205 launcher.py:205
 msgid "Speech Recognition (Vosk)"
-msgstr ""
+msgstr "Розпізнавання мовлення (Vosk)"
 
 #: build/lib/launcher.py:211 launcher.py:211
 msgid "Active Model:"
-msgstr ""
+msgstr "Активна модель:"
 
 #: build/lib/launcher.py:225 launcher.py:225
 msgid "Browse Folder"
-msgstr ""
+msgstr "Огляд папки"
 
 #: build/lib/launcher.py:226 build/lib/launcher.py:263 launcher.py:226
 #: launcher.py:263
 msgid "Download from URL"
-msgstr ""
+msgstr "Завантажити за URL"
 
 #: build/lib/launcher.py:227 build/lib/launcher_vocabulary_tab.py:85
 #: launcher.py:227 launcher_vocabulary_tab.py:85
 msgid "Delete Selected"
-msgstr ""
+msgstr "Видалити обране"
 
 #: build/lib/launcher.py:234 launcher.py:234
 msgid "Text-to-Speech (Piper)"
-msgstr ""
+msgstr "Перетворення тексту в мовлення (Piper)"
 
 #: build/lib/launcher.py:240 launcher.py:240
 msgid "Active Voice:"
-msgstr ""
+msgstr "Активний голос:"
 
 #: build/lib/launcher.py:257 launcher.py:257
 msgid "Delete Voice"
-msgstr ""
+msgstr "Видалити голос"
 
 #: build/lib/launcher.py:260 launcher.py:260
 msgid "Import New Voice"
-msgstr ""
+msgstr "Імпортувати новий голос"
 
 #: build/lib/launcher.py:264 launcher.py:264
 msgid "Load from File (.onnx)"
-msgstr ""
+msgstr "Завантажити з файлу (.onnx)"
 
 #: build/lib/launcher.py:328 build/lib/launcher.py:339
 #: build/lib/launcher_corrections_tab.py:198
@@ -160,15 +160,15 @@ msgstr ""
 
 #: build/lib/launcher.py:339 launcher.py:339
 msgid "TuxTalks is already running."
-msgstr ""
+msgstr "TuxTalks вже запущено."
 
 #: build/lib/launcher.py:343 launcher.py:343
 msgid "Unsaved Changes"
-msgstr ""
+msgstr "Незбережені зміни"
 
 #: build/lib/launcher.py:343 launcher.py:343
 msgid "You have unsaved changes. Save before starting?"
-msgstr ""
+msgstr "У вас є незбережені зміни. Зберегти перед запуском?"
 
 #: build/lib/launcher.py:383 launcher.py:383
 msgid "No Terminal Found"
@@ -186,7 +186,7 @@ msgstr "Зупинено"
 
 #: build/lib/launcher.py:392 launcher.py:392
 msgid "Assistant stopped."
-msgstr ""
+msgstr "Асистента зупинено."
 
 #: build/lib/launcher.py:415 build/lib/launcher_corrections_tab.py:292
 #: build/lib/launcher_speech_tab.py:126 launcher.py:415
@@ -196,7 +196,7 @@ msgstr "Збережено"
 
 #: build/lib/launcher.py:415 launcher.py:415
 msgid "Configuration saved."
-msgstr ""
+msgstr "Конфігурацію збережено."
 
 #: build/lib/launcher.py:432 launcher.py:432
 msgid "Downloading"
@@ -291,15 +291,15 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:39 launcher_corrections_tab.py:39
 msgid "When I hear..."
-msgstr ""
+msgstr "Коли я чую..."
 
 #: build/lib/launcher_corrections_tab.py:40 launcher_corrections_tab.py:40
 msgid "I should understand..."
-msgstr ""
+msgstr "Я маю розуміти..."
 
 #: build/lib/launcher_corrections_tab.py:54 launcher_corrections_tab.py:54
 msgid "Test & Train"
-msgstr ""
+msgstr "Тестувати та тренувати"
 
 #: build/lib/launcher_corrections_tab.py:60
 #: build/lib/launcher_corrections_tab.py:256
@@ -312,37 +312,37 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:64 launcher_corrections_tab.py:64
 msgid "Dur:"
-msgstr ""
+msgstr "Трив.:"
 
 #: build/lib/launcher_corrections_tab.py:73 launcher_corrections_tab.py:73
 msgid "Add as Correction"
-msgstr ""
+msgstr "Додати як виправлення"
 
 #: build/lib/launcher_corrections_tab.py:78 launcher_corrections_tab.py:78
 msgid "Targeted Train"
-msgstr ""
+msgstr "Цільове тренування"
 
 #: build/lib/launcher_corrections_tab.py:79 launcher_corrections_tab.py:79
 msgid "Basic"
-msgstr ""
+msgstr "Базовий"
 
 #: build/lib/launcher_corrections_tab.py:80 launcher_corrections_tab.py:80
 msgid "Advanced"
-msgstr ""
+msgstr "Розширений"
 
 #: build/lib/launcher_corrections_tab.py:83 launcher_corrections_tab.py:83
 msgid "Recent Ignored/Missed Commands"
-msgstr ""
+msgstr "Останні ігноровані/пропущені команди"
 
 #: build/lib/launcher_corrections_tab.py:89 launcher_corrections_tab.py:89
 msgid "Use Selected"
-msgstr ""
+msgstr "Використати обране"
 
 #: build/lib/launcher_corrections_tab.py:91
 #: build/lib/launcher_vocabulary_tab.py:86 launcher_corrections_tab.py:91
 #: launcher_vocabulary_tab.py:86
 msgid "Clear All"
-msgstr ""
+msgstr "Очистити все"
 
 #: build/lib/launcher_corrections_tab.py:92 build/lib/launcher_games_tab.py:801
 #: launcher_corrections_tab.py:92 launcher_games_tab.py:801
@@ -355,11 +355,11 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:136 launcher_corrections_tab.py:136
 msgid "Delete selected correction?"
-msgstr ""
+msgstr "Видалити обране виправлення?"
 
 #: build/lib/launcher_corrections_tab.py:198 launcher_corrections_tab.py:198
 msgid "Test a phrase first."
-msgstr ""
+msgstr "Спочатку протестуйте фразу."
 
 #: build/lib/launcher_corrections_tab.py:231 launcher_corrections_tab.py:231
 msgid "Model not found. Please check General settings."
@@ -367,19 +367,19 @@ msgstr ""
 
 #: build/lib/launcher_corrections_tab.py:283 launcher_corrections_tab.py:283
 msgid "Perfect match! No training needed."
-msgstr ""
+msgstr "Ідеальний збіг! Тренування не потрібне."
 
 #: build/lib/launcher_corrections_tab.py:292 launcher_corrections_tab.py:292
 msgid "Correction added."
-msgstr ""
+msgstr "Виправлення додано."
 
 #: build/lib/launcher_games_tab.py:29 launcher_games_tab.py:29
 msgid "Press the key combination on your keyboard:"
-msgstr ""
+msgstr "Натисніть комбінацію клавіш на клавіатурі:"
 
 #: build/lib/launcher_games_tab.py:35 launcher_games_tab.py:35
 msgid "(Example: Ctrl + Alt + H)"
-msgstr ""
+msgstr "(Приклад: Ctrl + Alt + H)"
 
 #: build/lib/launcher_games_tab.py:40 build/lib/launcher_games_tab.py:2078
 #: build/lib/launcher_player_tab.py:201 launcher_games_tab.py:40
@@ -397,7 +397,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:140 launcher_games_tab.py:140
 msgid "PID"
-msgstr ""
+msgstr "PID"
 
 #: build/lib/launcher_games_tab.py:141 launcher_games_tab.py:141
 msgid "Process Name"
@@ -405,7 +405,7 @@ msgstr "Ім'я Процесу"
 
 #: build/lib/launcher_games_tab.py:142 launcher_games_tab.py:142
 msgid "Command Line / Path"
-msgstr ""
+msgstr "Командний рядок / Шлях"
 
 #: build/lib/launcher_games_tab.py:162 launcher_games_tab.py:162
 msgid "🔄 Scan Processes"
@@ -417,28 +417,28 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:172 launcher_games_tab.py:172
 msgid "Game Type:"
-msgstr ""
+msgstr "Тип гри:"
 
 #: build/lib/launcher_games_tab.py:180 launcher_games_tab.py:180
 msgid "Game Name:"
-msgstr ""
+msgstr "Назва гри:"
 
 #: build/lib/launcher_games_tab.py:185 launcher_games_tab.py:185
 msgid "Process Name:"
-msgstr ""
+msgstr "Назва процесу:"
 
 #: build/lib/launcher_games_tab.py:190 launcher_games_tab.py:190
 msgid "Binding Profile Name:"
-msgstr ""
+msgstr "Назва профілю прив'язок:"
 
 #: build/lib/launcher_games_tab.py:196 build/lib/launcher_games_tab.py:858
 #: launcher_games_tab.py:196 launcher_games_tab.py:858
 msgid "Runtime Environment:"
-msgstr ""
+msgstr "Середовище виконання:"
 
 #: build/lib/launcher_games_tab.py:205 launcher_games_tab.py:205
 msgid "Bindings Path:"
-msgstr ""
+msgstr "Шлях до прив'язок:"
 
 #: build/lib/launcher_games_tab.py:212 build/lib/launcher_games_tab.py:640
 #: build/lib/launcher_games_tab.py:884 build/lib/launcher_player_tab.py:143
@@ -457,7 +457,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "Scan Results"
-msgstr ""
+msgstr "Результати сканування"
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "No standard binding files found for this game type."
@@ -465,19 +465,19 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:505 launcher_games_tab.py:505
 msgid "Process Name required."
-msgstr ""
+msgstr "Потрібна назва процесу."
 
 #: build/lib/launcher_games_tab.py:629 launcher_games_tab.py:629
 msgid "Profile Name (Variant):"
-msgstr ""
+msgstr "Назва профілю (варіант):"
 
 #: build/lib/launcher_games_tab.py:634 launcher_games_tab.py:634
 msgid "Bindings File Path (Optional):"
-msgstr ""
+msgstr "Шлях до файлу прив'язок (опціонально):"
 
 #: build/lib/launcher_games_tab.py:643 launcher_games_tab.py:643
 msgid "Create Profile"
-msgstr ""
+msgstr "Створити профіль"
 
 #: build/lib/launcher_games_tab.py:664 launcher_games_tab.py:664
 msgid "Profile Name required."
@@ -485,43 +485,43 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:717 launcher_games_tab.py:717
 msgid "Game Integration Status"
-msgstr ""
+msgstr "Статус інтеграції гри"
 
 #: build/lib/launcher_games_tab.py:724 launcher_games_tab.py:724
 msgid "Game:"
-msgstr ""
+msgstr "Гра:"
 
 #: build/lib/launcher_games_tab.py:730 launcher_games_tab.py:730
 msgid "Binds:"
-msgstr ""
+msgstr "Прив'язки:"
 
 #: build/lib/launcher_games_tab.py:741 launcher_games_tab.py:741
 msgid "Macro Profile:"
-msgstr ""
+msgstr "Профіль макросів:"
 
 #: build/lib/launcher_games_tab.py:753 launcher_games_tab.py:753
 msgid "➕"
-msgstr ""
+msgstr "➕"
 
 #: build/lib/launcher_games_tab.py:760 launcher_games_tab.py:760
 msgid "✏"
-msgstr ""
+msgstr "✏"
 
 #: build/lib/launcher_games_tab.py:767 launcher_games_tab.py:767
 msgid "🗑"
-msgstr ""
+msgstr "🗑"
 
 #: build/lib/launcher_games_tab.py:781 launcher_games_tab.py:781
 msgid "Runtime Status:"
-msgstr ""
+msgstr "Статус виконання:"
 
 #: build/lib/launcher_games_tab.py:787 launcher_games_tab.py:787
 msgid "Enable Game Integration"
-msgstr ""
+msgstr "Увімкнути інтеграцію гри"
 
 #: build/lib/launcher_games_tab.py:795 launcher_games_tab.py:795
 msgid "Filter:"
-msgstr ""
+msgstr "Фільтр:"
 
 #: build/lib/launcher_games_tab.py:802 launcher_games_tab.py:802
 msgid "Restore"
@@ -533,32 +533,32 @@ msgstr "Резервна копія"
 
 #: build/lib/launcher_games_tab.py:809 launcher_games_tab.py:809
 msgid "Add Game"
-msgstr ""
+msgstr "Додати гру"
 
 #: build/lib/launcher_games_tab.py:810 build/lib/launcher_games_tab.py:1510
 #: launcher_games_tab.py:810 launcher_games_tab.py:1510
 msgid "Edit Game"
-msgstr ""
+msgstr "Редагувати гру"
 
 #: build/lib/launcher_games_tab.py:811 launcher_games_tab.py:811
 msgid "Remove Game"
-msgstr ""
+msgstr "Видалити гру"
 
 #: build/lib/launcher_games_tab.py:813 launcher_games_tab.py:813
 msgid "Add Bind"
-msgstr ""
+msgstr "Додати прив'язку"
 
 #: build/lib/launcher_games_tab.py:814 launcher_games_tab.py:814
 msgid "Edit Bind"
-msgstr ""
+msgstr "Редагувати прив'язку"
 
 #: build/lib/launcher_games_tab.py:815 launcher_games_tab.py:815
 msgid "Remove Bind"
-msgstr ""
+msgstr "Видалити прив'язку"
 
 #: build/lib/launcher_games_tab.py:816 launcher_games_tab.py:816
 msgid "Default Binds"
-msgstr ""
+msgstr "Прив'язки за замовчуванням"
 
 #: build/lib/launcher_games_tab.py:828 launcher_games_tab.py:828
 msgid "Bindings"
@@ -566,31 +566,31 @@ msgstr "Прив'язки"
 
 #: build/lib/launcher_games_tab.py:835 launcher_games_tab.py:835
 msgid "Profile Settings"
-msgstr ""
+msgstr "Налаштування профілю"
 
 #: build/lib/launcher_games_tab.py:840 launcher_games_tab.py:840
 msgid "Profile Configuration"
-msgstr ""
+msgstr "Конфігурація профілю"
 
 #: build/lib/launcher_games_tab.py:847 launcher_games_tab.py:847
 msgid "Process Name (e.g. X4.exe):"
-msgstr ""
+msgstr "Назва процесу (наприклад, X4.exe):"
 
 #: build/lib/launcher_games_tab.py:852 launcher_games_tab.py:852
 msgid "Bindings File Path:"
-msgstr ""
+msgstr "Шлях до файлу прив'язок:"
 
 #: build/lib/launcher_games_tab.py:855 launcher_games_tab.py:855
 msgid " Browse "
-msgstr ""
+msgstr "Огляд"
 
 #: build/lib/launcher_games_tab.py:864 launcher_games_tab.py:864
 msgid "Save Settings"
-msgstr ""
+msgstr "Зберегти налаштування"
 
 #: build/lib/launcher_games_tab.py:867 launcher_games_tab.py:867
 msgid "External Audio Assets"
-msgstr ""
+msgstr "Зовнішні аудіоресурси"
 
 #: build/lib/launcher_games_tab.py:872 launcher_games_tab.py:872
 msgid ""
@@ -600,7 +600,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:879 launcher_games_tab.py:879
 msgid "Audio Directory:"
-msgstr ""
+msgstr "Аудіокаталог:"
 
 #: build/lib/launcher_games_tab.py:891 launcher_games_tab.py:891
 msgid "X4 Foundations Controller Sync"
@@ -626,7 +626,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:903 launcher_games_tab.py:903
 msgid "Active Profile Bindings"
-msgstr ""
+msgstr "Прив'язки активного профілю"
 
 #: build/lib/launcher_games_tab.py:910 launcher_games_tab.py:910
 msgid "Voice Command"
@@ -642,11 +642,11 @@ msgstr "Призначена Клавіша"
 
 #: build/lib/launcher_games_tab.py:923 launcher_games_tab.py:923
 msgid "Modify Trigger"
-msgstr ""
+msgstr "Змінити тригер"
 
 #: build/lib/launcher_games_tab.py:924 launcher_games_tab.py:924
 msgid "Clear Trigger"
-msgstr ""
+msgstr "Очистити тригер"
 
 #: build/lib/launcher_games_tab.py:936 launcher_games_tab.py:936
 msgid "Macros (Beta)"
@@ -654,7 +654,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:943 launcher_games_tab.py:943
 msgid "Defined Macros"
-msgstr ""
+msgstr "Визначені макроси"
 
 #: build/lib/launcher_games_tab.py:949 launcher_games_tab.py:949
 msgid "New"
@@ -671,19 +671,19 @@ msgstr "Голосові Тригери"
 
 #: build/lib/launcher_games_tab.py:956 launcher_games_tab.py:956
 msgid "Source"
-msgstr ""
+msgstr "Джерело"
 
 #: build/lib/launcher_games_tab.py:967 launcher_games_tab.py:967
 msgid "Macro Steps"
-msgstr ""
+msgstr "Кроки макросу"
 
 #: build/lib/launcher_games_tab.py:976 launcher_games_tab.py:976
 msgid "↑"
-msgstr ""
+msgstr "↑"
 
 #: build/lib/launcher_games_tab.py:977 launcher_games_tab.py:977
 msgid "↓"
-msgstr ""
+msgstr "↓"
 
 #: build/lib/launcher_games_tab.py:978 launcher_games_tab.py:978
 msgid "Run"
@@ -691,19 +691,19 @@ msgstr "Виконати"
 
 #: build/lib/launcher_games_tab.py:982 launcher_games_tab.py:982
 msgid "Action"
-msgstr ""
+msgstr "Дія"
 
 #: build/lib/launcher_games_tab.py:983 launcher_games_tab.py:983
 msgid "Key"
-msgstr ""
+msgstr "Клавіша"
 
 #: build/lib/launcher_games_tab.py:984 launcher_games_tab.py:984
 msgid "Delay"
-msgstr ""
+msgstr "Затримка"
 
 #: build/lib/launcher_games_tab.py:995 launcher_games_tab.py:995
 msgid "Reference File"
-msgstr ""
+msgstr "Довідковий файл"
 
 #: build/lib/launcher_games_tab.py:1311 launcher_games_tab.py:1311
 msgid "Complete"
@@ -725,7 +725,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1340 launcher_games_tab.py:1340
 msgid "Add Command"
-msgstr ""
+msgstr "Додати команду"
 
 #: build/lib/launcher_games_tab.py:1453 launcher_games_tab.py:1453
 msgid "No game group selected."
@@ -741,12 +741,12 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1488 launcher_games_tab.py:1488
 msgid "Select a row to delete."
-msgstr ""
+msgstr "Оберіть рядок для видалення."
 
 #: build/lib/launcher_games_tab.py:1510 build/lib/launcher_games_tab.py:1628
 #: launcher_games_tab.py:1510 launcher_games_tab.py:1628
 msgid "No profile selected."
-msgstr ""
+msgstr "Профіль не обрано."
 
 #: build/lib/launcher_games_tab.py:1524 launcher_games_tab.py:1524
 msgid "Name already taken."
@@ -754,7 +754,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid "Import Defaults"
-msgstr ""
+msgstr "Імпортувати за замовчуванням"
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid ""
@@ -790,7 +790,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1818 launcher_games_tab.py:1818
 msgid "Please select a game first."
-msgstr ""
+msgstr "Будь ласка, спочатку оберіть гру."
 
 #: build/lib/launcher_games_tab.py:1833 build/lib/launcher_games_tab.py:1891
 #: launcher_games_tab.py:1833 launcher_games_tab.py:1891
@@ -800,19 +800,19 @@ msgstr ""
 #: build/lib/launcher_games_tab.py:1833 build/lib/launcher_games_tab.py:1891
 #: launcher_games_tab.py:1833 launcher_games_tab.py:1891
 msgid "Profile name cannot be empty."
-msgstr ""
+msgstr "Назва профілю не може бути порожньою."
 
 #: build/lib/launcher_games_tab.py:1852 launcher_games_tab.py:1852
 msgid "Failed to create macro profile."
-msgstr ""
+msgstr "Не вдалося створити профіль макросів."
 
 #: build/lib/launcher_games_tab.py:1908 launcher_games_tab.py:1908
 msgid "Failed to rename macro profile."
-msgstr ""
+msgstr "Не вдалося перейменувати профіль макросів."
 
 #: build/lib/launcher_games_tab.py:1953 launcher_games_tab.py:1953
 msgid "Failed to delete macro profile."
-msgstr ""
+msgstr "Не вдалося видалити профіль макросів."
 
 #: build/lib/launcher_games_tab.py:1976 launcher_games_tab.py:1976
 msgid "No game profile loaded."
@@ -895,7 +895,7 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:2318 launcher_games_tab.py:2318
 msgid "Action:"
-msgstr ""
+msgstr "Дія:"
 
 #: build/lib/launcher_games_tab.py:2338 launcher_games_tab.py:2338
 msgid "Delay after (ms):"
@@ -1065,7 +1065,7 @@ msgstr ""
 
 #: build/lib/launcher_player_tab.py:17 launcher_player_tab.py:17
 msgid "Player"
-msgstr ""
+msgstr "Програвач"
 
 #: build/lib/launcher_player_tab.py:23 launcher_player_tab.py:23
 msgid "Select Player:"
@@ -1182,7 +1182,7 @@ msgstr ""
 
 #: build/lib/launcher_vocabulary_tab.py:44 launcher_vocabulary_tab.py:44
 msgid "↻"
-msgstr ""
+msgstr "↻"
 
 #: build/lib/launcher_vocabulary_tab.py:46 launcher_vocabulary_tab.py:46
 msgid "Import Selected"
