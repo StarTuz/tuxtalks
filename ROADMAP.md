@@ -12,11 +12,12 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 
 ---
 
-## ✅ Current State (v1.0.29 - Pre-Release)
+## ✅ Current State (v1.0.0b1 - Beta Release)
 
-**Status:** Feature-complete for initial release  
+**Status:** Feature-complete, in beta testing  
 **Platform:** Linux (Arch-based primary, tested on Garuda)  
 **Architecture:** Modular, plugin-based  
+**Last Updated:** December 22, 2025
 
 ### Core Features
 - Voice control (wake word, ASR/TTS, PTT)
@@ -37,6 +38,9 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 - ✅ **Clean Slate Profiles** (No forced built-ins)
 - ✅ **UI Stability Fixes** (Display name mapping & overlap)
 - ✅ **Path Resolution Fixes** (X4 custom bindings support)
+- ✅ **JRiver Startup Fix** (Properly waits for MCWS service - Dec 22)
+- ✅ **Wyoming ASR Lifecycle** (Auto-start/stop with TuxTalks - Dec 22)
+- ✅ **Graceful Shutdown** (SIGINT handler for clean exit - Dec 22)
 
 ---
 
@@ -857,5 +861,5 @@ See CONTRIBUTING.md for guidelines.
 
 ---
 
-*Last Updated: 2025-12-09*  
-*Version: 1.0.29*
+*Last Updated: 2025-12-22*  
+*Version: 1.0.0b1*
