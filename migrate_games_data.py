@@ -4,9 +4,9 @@ TuxTalks Data Migration Script
 Migrates games data from flat structure to hierarchical per-game subdirectories.
 
 Usage:
-    python migrate_games_data.py --dry-run    # Preview changes
-    python migrate_games_data.py --backup     # Backup + migrate
-    python migrate_games_data.py --rollback   # Undo migration
+    tuxtalks-admin migrate data --dry-run    # Preview changes
+    tuxtalks-admin migrate data --backup     # Backup + migrate
+    tuxtalks-admin migrate data --rollback   # Undo migration
 """
 
 import os

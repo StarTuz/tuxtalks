@@ -255,6 +255,25 @@ GAMING_GLOSSARY = {
     "💾": "💾",
     "🎤": "🎤",
     "⚠️": "⚠️",
+    
+    # Wizard setup
+    "TuxTalks First-Run Setup": "Configuración inicial de TuxTalks",
+    "Welcome to TuxTalks! 🐧": "¡Bienvenido a TuxTalks! 🐧",
+    "TuxTalks is your powerful, secure, and offline voice command assistant for Linux gaming.\n\nThis wizard will help you set up your core preferences in just a few minutes so you can start talking to your favorite games and media players.": "TuxTalks es su potente, seguro y asistente de comandos de voz fuera de línea para juegos en Linux.\n\nEste asistente le ayudará a configurar sus preferencias básicas en solo unos minutos para que pueda empezar a hablar con sus juegos y reproductores multimedia favoritos.",
+    "Ready to begin?": "¿Listo para comenzar?",
+    "Step 1: Interface Language": "Paso 1: Idioma de la interfaz",
+    "Select the language for the TuxTalks interface:": "Seleccione el idioma para la interfaz de TuxTalks:",
+    "Note: RTL support is automatically enabled for Arabic.": "Nota: El soporte RTL se activa automáticamente para el árabe.",
+    "Step 2: Voice Recognition (ASR)": "Paso 2: Reconocimiento de voz (ASR)",
+    "To process your voice offline, TuxTalks needs a language model.\n\nBased on your language selection, we recommend the following model:": "Para procesar su voz fuera de línea, TuxTalks necesita un modelo de lenguaje.\n\nSegún su selección de idioma, recomendamos el siguiente modelo:",
+    "Download & Install": "Descargar e Instalar",
+    "Step 3: Initial Integration": "Paso 3: Integración inicial",
+    "Choose your primary media player:": "Elija su reproductor multimedia principal:",
+    "Tip: You can change this and add games later in the main settings.": "Consejo: Puede cambiar esto y agregar juegos más tarde en la configuración principal.",
+    "All Set! 🎉": "¡Todo listo! 🎉",
+    "Setup is complete. TuxTalks is now configured with your language and voice preferences.\n\nClick 'Finish' to open the main settings where you can further customize your experience, add games, and calibrate your microphone.": "La configuración se ha completado. TuxTalks ahora está configurado con sus preferencias de idioma y voz.\n\nHaga clic en 'Finalizar' para abrir la configuración principal, donde podrá personalizar aún más su experiencia, agregar juegos y calibrar su micrófono.",
+    "Skip Setup?": "¿Omitir configuración?",
+    "Closing this window will skip the setup wizard. You can still configure everything manually in the settings.\n\nSkip and don't show again?": "Cerrar esta ventana omitirá el asistente de configuración. Aún puede configurar todo manualmente en los ajustes.\n\n¿Omitir y no volver a mostrar?",
 }
 
 # Sentence fragments/phrases

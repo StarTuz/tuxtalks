@@ -15,20 +15,40 @@ class JRiverPlayer(MediaPlayer):
         self.cache = {}
 
     def health_check(self):
-        """Checks if JRiver is running and reachable."""
+        """Checks if JRiver is running and reachable. Launches and waits if needed."""
         print("Checking JRiver connection...")
         try:
             requests.get(f"http://{self.ip}:{self.port}/MCWS/v1/Alive", timeout=2)
             print("✅ JRiver is running.")
             return True
         except requests.exceptions.ConnectionError:
-            print("⚠️  JRiver is not running. Attempting to launch...")
+            print("⚠️  JRiver is not running. Launching...")
             try:
                 import subprocess
                 subprocess.Popen(["mediacenter35"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-                print("⏳ Waiting for JRiver to start (15s)...")
-                time.sleep(15)
-                return True
+                
+                # Poll for JRiver to become ready (up to 20 seconds)
+                max_wait = 20
+                poll_interval = 0.5
+                waited = 0
+                
+                print(f"⏳ Waiting for JRiver to start", end="", flush=True)
+                while waited < max_wait:
+                    time.sleep(poll_interval)
+                    waited += poll_interval
+                    print(".", end="", flush=True)
+                    
+                    try:
+                        requests.get(f"http://{self.ip}:{self.port}/MCWS/v1/Alive", timeout=1)
+                        print(f"\n✅ JRiver is ready! (took {waited:.1f}s)")
+                        return True
+                    except requests.exceptions.ConnectionError:
+                        continue
+                
+                # Timeout - JRiver didn't become ready
+                print(f"\n⚠️  JRiver launched but not ready after {max_wait}s. Commands may fail.")
+                return False
+                
             except FileNotFoundError:
                 print("❌ Could not launch 'mediacenter35'. Please start JRiver manually.")
                 return False
@@ -947,15 +967,43 @@ class JRiverPlayer(MediaPlayer):
         """Plays a list of files (or indices for JRiver)."""
         if not files:
             return
-        
-        # For JRiver, 'files' are indices (integers) if coming from list_tracks
-        # Check if the first item is an integer or string digit
+            
         first = files[0]
         try:
-            index = int(first)
-            self.go_to_track(index)
+            val = int(first)
+            
+            # Check current playlist size to distinguish Index from Database Key
+            xml_response = self.send_mcws_command("Playback/Info", return_xml=True)
+            total_tracks = 0
+            if xml_response:
+                try:
+                    root = ET.fromstring(xml_response)
+                    total_tracks = int(root.find(".//Item[@Name='PlayingNowTracks']").text or 0)
+                except:
+                    pass
+            
+            # Decision: Is this a playlist position (1-based index) or a database FileKey?
+            if 1 <= val <= total_tracks and len(files) == 1:
+                # It's a valid index in the current playlist (likely from list_tracks)
+                print(f"🎯 JRiver: Interpreting '{val}' as playlist index")
+                self.go_to_track(val)
+            else:
+                # It's a database Key (or we have multiple files to play)
+                print(f"🎯 JRiver: Interpreting '{val}' as Database Key (or out of range index)")
+                
+                # Start with the first key
+                self.send_mcws_command("Playback/PlayByKey", extra_params=f"Key={val}")
+                
+                # Add any subsequent keys to the playlist
+                for other_key in files[1:]:
+                    self.send_mcws_command("Playback/PlaylistAdd", extra_params=f"Key={other_key}")
+                
+                # Update status
+                time.sleep(0.5)
+                self.what_is_playing_silent()
+                
         except ValueError:
-            print(f"❌ JRiver play_files expected indices, got: {first}")
+            print(f"❌ JRiver play_files expected numeric indices or keys, got: {first}")
             self.speak("I can't play that.")
 
     def get_artist_albums(self, artist):

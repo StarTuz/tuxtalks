@@ -2,7 +2,7 @@
 TuxTalks Runtime Menu Window
 
 Small, non-blocking GUI for displaying selection options during runtime.
-Communicates with tuxtalks-cli via IPC (local sockets).
+Communicates with tuxtalks via IPC (local sockets).
 """
 
 import tkinter as tk
@@ -56,6 +56,9 @@ class RuntimeMenu:
         # Request queue (for thread-safe UI updates)
         self.request_queue = queue.Queue()
         self.root.after(100, self._process_queue)
+        
+        # Handle window close button
+        self.root.protocol("WM_DELETE_WINDOW", self._on_exit)
         
         print("[Runtime Menu] Started")
     
@@ -377,6 +380,8 @@ class RuntimeMenu:
         self.cancelled = True
         self.explicit_cancel = True  # Mark as explicit cancel (not timeout)
         self.selection_ready.set()
+        # Clear UI immediately
+        self._clear_list()
     
     def _on_exit(self):
         """Handle exit button - close the window entirely."""

@@ -156,7 +156,7 @@ msgstr "Інформація"
 
 #: build/lib/launcher.py:328 launcher.py:328
 msgid "Scaling saved. Restart required for full effect."
-msgstr ""
+msgstr "Масштаб збережено. Для повного ефекту потрібен перезапуск."
 
 #: build/lib/launcher.py:339 launcher.py:339
 msgid "TuxTalks is already running."
@@ -250,7 +250,7 @@ msgstr ""
 
 #: build/lib/launcher.py:475 launcher.py:475
 msgid "Failed to install voice."
-msgstr ""
+msgstr "Не вдалося встановити голос."
 
 #: build/lib/launcher.py:478 launcher.py:478
 msgid "Importing"
@@ -258,11 +258,11 @@ msgstr "Імпорт"
 
 #: build/lib/launcher.py:478 launcher.py:478
 msgid "Downloading voice in background..."
-msgstr ""
+msgstr "Завантаження голосу у фоновому режимі..."
 
 #: build/lib/launcher.py:494 launcher.py:494
 msgid "Failed to import voice."
-msgstr ""
+msgstr "Не вдалося імпортувати голос."
 
 #: build/lib/launcher_corrections_tab.py:15 launcher_corrections_tab.py:15
 msgid "Corrections"
@@ -461,7 +461,7 @@ msgstr "Результати сканування"
 
 #: build/lib/launcher_games_tab.py:326 launcher_games_tab.py:326
 msgid "No standard binding files found for this game type."
-msgstr ""
+msgstr "Стандартних файлів прив'язок для цього типу гри не знайдено."
 
 #: build/lib/launcher_games_tab.py:505 launcher_games_tab.py:505
 msgid "Process Name required."
@@ -733,11 +733,11 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1464 launcher_games_tab.py:1464
 msgid "No profiles found in this group."
-msgstr ""
+msgstr "У цій групі профілів не знайдено."
 
 #: build/lib/launcher_games_tab.py:1480 launcher_games_tab.py:1480
 msgid "Failed to remove profiles."
-msgstr ""
+msgstr "Не вдалося видалити профілі."
 
 #: build/lib/launcher_games_tab.py:1488 launcher_games_tab.py:1488
 msgid "Select a row to delete."
@@ -750,7 +750,7 @@ msgstr "Профіль не обрано."
 
 #: build/lib/launcher_games_tab.py:1524 launcher_games_tab.py:1524
 msgid "Name already taken."
-msgstr ""
+msgstr "Назва вже зайнята."
 
 #: build/lib/launcher_games_tab.py:1593 launcher_games_tab.py:1593
 msgid "Import Defaults"
@@ -766,19 +766,19 @@ msgstr ""
 #: build/lib/launcher_games_tab.py:1599 build/lib/launcher_games_tab.py:1608
 #: launcher_games_tab.py:1599 launcher_games_tab.py:1608
 msgid "Import Complete"
-msgstr ""
+msgstr "Імпорт завершено"
 
 #: build/lib/launcher_games_tab.py:1599 launcher_games_tab.py:1599
 msgid "No profiles found. (Check console for path/parsing errors)"
-msgstr ""
+msgstr "Профілів не знайдено. (Перевірте консоль на наявність помилок шляху/парсингу)"
 
 #: build/lib/launcher_games_tab.py:1608 launcher_games_tab.py:1608
 msgid "No profiles found."
-msgstr ""
+msgstr "Профілів не знайдено."
 
 #: build/lib/launcher_games_tab.py:1617 launcher_games_tab.py:1617
 msgid "Please select a Game grouping first."
-msgstr ""
+msgstr "Будь ласка, спочатку оберіть групу ігор."
 
 #: build/lib/launcher_games_tab.py:1636 launcher_games_tab.py:1636
 msgid "Failed to remove profile."
@@ -820,11 +820,11 @@ msgstr ""
 
 #: build/lib/launcher_games_tab.py:1988 launcher_games_tab.py:1988
 msgid "Internal Error: Active bindings path is unknown."
-msgstr ""
+msgstr "Внутрішня помилка: шлях до активних прив'язок невідомий."
 
 #: build/lib/launcher_games_tab.py:2005 launcher_games_tab.py:2005
 msgid "Select an action to rebind."
-msgstr ""
+msgstr "Оберіть дію для перепризначення."
 
 #: build/lib/launcher_games_tab.py:2008 launcher_games_tab.py:2008
 msgid "⚠️ Game is Running"

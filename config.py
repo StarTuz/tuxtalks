@@ -44,6 +44,7 @@ DEFAULTS = {
     "OLLAMA_URL": "http://localhost:11434",  # Local Ollama instance
     "OLLAMA_MODEL": "llama2",  # Model to use (llama2, mistral, phi, etc.)
     "OLLAMA_TIMEOUT": 2000,  # Milliseconds (2s for music commands)
+    "FIRST_RUN_COMPLETE": False, # Has the user completed the setup wizard?
 }
 
 # Player Schemas for GUI generation

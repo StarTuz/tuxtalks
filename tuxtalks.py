@@ -166,6 +166,28 @@ class VoiceAssistant:
         # Ignored Commands Log
         self.ignored_log_path = os.path.expanduser("~/.local/share/tuxtalks/ignored_commands.json")
 
+    def shutdown(self):
+        """Cleanly shuts down all components."""
+        print("🔻 VoiceAssistant shutting down...")
+        
+        # Stop ASR
+        if hasattr(self, 'asr') and self.asr:
+            print("   -> Stopping ASR Engine...")
+            try:
+                self.asr.stop()
+            except Exception as e:
+                print(f"   Error stopping ASR: {e}")
+
+        # Stop Player
+        if hasattr(self, 'player') and self.player:
+            print("   -> Stopping Player Interface...")
+            try:
+                self.player.stop()
+            except Exception as e:
+                print(f"   Error stopping player: {e}")
+                
+        print("✅ Shutdown complete.")
+
     def log_ignored_command(self, text):
         """Logs ignored text to a JSON file for the launcher to read."""
         if not text: return
@@ -507,65 +529,32 @@ def console_input_loop(assistant):
             # print(f"Console input error: {e}")
             break
 
-def main_cli():
-    """
-    Direct CLI entry point (for tuxtalks-cli command).
-    Always runs in CLI mode, no environment detection.
-    """
-    parser = argparse.ArgumentParser(description="TuxTalks Voice Assistant (CLI Mode)")
-    parser.add_argument("--player", help="Specify the media player to use (e.g., jriver, elisa)")
-    parser.add_argument("--setup", action="store_true", help="Run the setup wizard (CLI)")
-    args = parser.parse_args()
-    
-    # Continue with CLI mode directly
-    _run_cli(args)
-
 
 def main():
     """
-    Smart dispatcher entry point (for tuxtalks command).
-    Auto-detects environment and launches appropriate interface.
+    Primary entry point (for tuxtalks command).
+    Defaults to CLI mode. Use --gui to launch settings interface.
     """
     parser = argparse.ArgumentParser(description="TuxTalks Voice Assistant")
     parser.add_argument("--player", help="Specify the media player to use (e.g., jriver, elisa)")
     parser.add_argument("--setup", action="store_true", help="Run the setup wizard (CLI)")
-    parser.add_argument("--gui", action="store_true", help="Force GUI launcher (overrides environment detection)")
-    parser.add_argument("--cli", action="store_true", help="Force CLI mode (overrides  environment detection)")
+    parser.add_argument("--gui", action="store_true", help="Launch GUI settings interface")
+    parser.add_argument("--cli", action="store_true", help="Force CLI mode (default)")
     args = parser.parse_args()
 
-    # Environment Detection: Determine if GUI should be used
-    def is_desktop_environment():
-        """Check if running in a desktop environment with display."""
-        if os.environ.get("DISPLAY"):  # X11/Wayland display available
-            return True
-        if os.environ.get("WAYLAND_DISPLAY"):  # Wayland-specific
-            return True
-        return False
-    
-    def is_ssh_session():
-        """Check if running in SSH session."""
-        return bool(os.environ.get("SSH_CLIENT") or os.environ.get("SSH_TTY"))
-    
-    # Decide interface mode
-    use_gui = False
+    # If --gui is requested, hand off to the GUI binary
     if args.gui:
-        use_gui = True
-    elif args.cli:
-        use_gui = False
-    elif is_desktop_environment() and not is_ssh_session():
-        # Auto-detect: desktop environment → use GUI
-        use_gui = True
-    
-    # Launch GUI if appropriate (and not already in setup mode)
-    if use_gui and not args.setup:
         import shutil
-        launcher_cmd = "tuxtalks-launcher"
+        launcher_cmd = "tuxtalks-gui"
         if shutil.which(launcher_cmd):
             print("🖥️  Launching GUI...")
             subprocess.Popen([launcher_cmd])
             sys.exit(0)
         else:
             print(f"⚠️  GUI requested but '{launcher_cmd}' not found. Falling back to CLI.")
+    
+    # Otherwise, run core program in CLI mode
+    _run_cli(args)
     
 def _run_cli(args):
     """Common CLI startup logic (used by both main() and main_cli())."""
@@ -581,10 +570,19 @@ def _run_cli(args):
     logger.info("TuxTalks CLI starting...")
     logger.debug(f"Log level: {log_level}")
     
+    # Initialize assistant variable early for signal handler visibility
+    assistant = None
+    
     # Signal handler for Ctrl+C
     def signal_handler(sig, frame):
         logger.info("SIGINT received - exiting...")
         print("\n👋 Exiting...")
+        
+        # Shutdown assistant if active
+        nonlocal assistant
+        if assistant:
+            assistant.shutdown()
+            
         os._exit(0)  # Force exit immediately
     
     signal.signal(signal.SIGINT, signal_handler)
@@ -596,7 +594,7 @@ def _run_cli(args):
     if not SYSTEM_CONFIG_FILE.exists() and not args.setup:
         print("⚠️  Configuration not found. Launching setup launcher...")
         import shutil
-        launcher_cmd = "tuxtalks-launcher"
+        launcher_cmd = "tuxtalks-gui"
         if shutil.which(launcher_cmd):
             # Launch and exit
             subprocess.Popen([launcher_cmd])

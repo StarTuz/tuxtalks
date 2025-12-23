@@ -3,9 +3,9 @@
 TuxTalks Pack Installer - CLI tool for installing content packs.
 
 Usage:
-    tuxtalks-install-pack ./pack.zip
-    tuxtalks-install-pack https://example.com/pack.tar.gz
-    tuxtalks-install-pack --list
+    tuxtalks-admin install-pack ./pack.zip
+    tuxtalks-admin install-pack https://example.com/pack.tar.gz
+    tuxtalks-admin install-pack --list
 """
 
 import sys

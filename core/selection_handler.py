@@ -190,7 +190,9 @@ class SelectionHandler:
                         print("[Selection] GUI timed out")
                         self.speak("Selection timed out. You can re-issue the command.")
                 else:
-                    print("[Selection] GUI error")
+                    print("[Selection] GUI connection lost or error")
+                    return False  # Return False to trigger voice fallback
+                
                 self.clear()
                 return True
                 

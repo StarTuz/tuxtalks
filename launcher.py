@@ -28,6 +28,7 @@ from launcher_corrections_tab import LauncherCorrectionsTab
 from launcher_vocabulary_tab import LauncherVocabularyTab
 from launcher_training_tab import LauncherTrainingTab
 from launcher_packs_tab import PacksTab
+from launcher_setup_wizard import SetupWizard
 import i18n
 
 # Initialize internationalization FIRST
@@ -108,10 +109,10 @@ class ConfigGUI(LauncherSpeechTab, LauncherPlayerTab, LauncherGamesTab, Launcher
             self.logger.debug(f"Could not stop music: {e}")
             # Not critical if this fails
         
-        # Stop any running tuxtalks-cli process
+        # Stop any running tuxtalks process
         if hasattr(self, 'tuxtalks_process') and self.tuxtalks_process and self.tuxtalks_process.poll() is None:
             pid = self.tuxtalks_process.pid
-            self.logger.info(f"Stopping tuxtalks-cli (PID {pid})")
+            self.logger.info(f"Stopping tuxtalks (PID {pid})")
             try:
                 self.tuxtalks_process.send_signal(signal.SIGTERM)
                 try:
@@ -124,10 +125,12 @@ class ConfigGUI(LauncherSpeechTab, LauncherPlayerTab, LauncherGamesTab, Launcher
             except Exception as e:
                 self.logger.error(f"Error stopping process: {e}")
         
-        # Nuclear fallback
+        # Nuclear fallback - only kill if explicitly running tuxtalks (cli) 
+        # but avoid killing ourselves (tuxtalks-gui) or the runtime menu.
         try:
-            self.logger.debug("Fallback: killing all tuxtalks-cli processes")
-            sp.run(["pkill", "-9", "-f", "tuxtalks-cli"], check=False)
+            self.logger.debug("Fallback: cleaning up stale tuxtalks assistant processes")
+            # We target the main script name to avoid killing 'tuxtalks-gui', 'tuxtalks-menu', etc.
+            sp.run(["pkill", "-f", "tuxtalks.py"], check=False)
         except:
             pass
         
@@ -253,7 +256,7 @@ class ConfigGUI(LauncherSpeechTab, LauncherPlayerTab, LauncherGamesTab, Launcher
         btn_frame = ttk.Frame(main_frame)
         btn_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=(10, 0))
         
-        ttk.Button(btn_frame, text="tuxtalks-cli", command=self.launch_tuxtalks, width=15).pack(side=tk.LEFT, padx=5)
+        ttk.Button(btn_frame, text="tuxtalks", command=self.launch_tuxtalks, width=15).pack(side=tk.LEFT, padx=5)
         ttk.Button(btn_frame, text="tuxtalks-menu", command=self.launch_runtime_menu, width=15).pack(side=tk.LEFT, padx=5)
         ttk.Button(btn_frame, text=_("Stop"), command=self.stop_tuxtalks, width=10).pack(side=tk.LEFT, padx=5)
         
@@ -323,6 +326,29 @@ class ConfigGUI(LauncherSpeechTab, LauncherPlayerTab, LauncherGamesTab, Launcher
         # Initial imports
         self.load_corrections()
         self.update_dynamic_fields()
+
+        # Check for First Run
+        if not cfg.get("FIRST_RUN_COMPLETE"):
+            self.root.after(100, self.launch_setup_wizard)
+
+    def launch_setup_wizard(self):
+        """Opens the first-run setup wizard."""
+        SetupWizard(self.root, on_complete_callback=self.on_setup_complete)
+
+    def on_setup_complete(self):
+        """Called after setup wizard finishes."""
+        # Refresh UI Language
+        new_lang = cfg.get("UI_LANGUAGE", "en")
+        i18n.set_language(new_lang)
+        
+        # Save config and refresh all tabs
+        self.config.save()
+        messagebox.showinfo(_("Setup Complete"), _("TuxTalks is now ready! Settings have been updated."))
+        
+        # Proactively refresh essential UI components
+        self.update_dynamic_fields()
+        if hasattr(self, 'refresh_voice_list'):
+            self.refresh_voice_list()
 
     def build_general_tab(self):
         # Wake Word
@@ -479,7 +505,7 @@ You can add any game via the 'Add' button in the Games tab.
             self.config.save()
             # Launch with stdin pipe for graceful shutdown
             self.tuxtalks_process = subprocess.Popen(
-                ["tuxtalks-cli"],
+                ["tuxtalks"],
                 stdin=subprocess.PIPE,
                 text=False  # Use bytes for stdin
             )

@@ -35,6 +35,8 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 - ✅ **Sound Pools** (Random/Sequential Audio)
 - ✅ **Macro Profile Persistence** (Remembers selection)
 - ✅ **Clean Slate Profiles** (No forced built-ins)
+- ✅ **UI Stability Fixes** (Display name mapping & overlap)
+- ✅ **Path Resolution Fixes** (X4 custom bindings support)
 
 ---
 
@@ -530,11 +532,9 @@ This is the most time-consuming phase, focused on:
     * Some library data gaps (not code issue)
 
 **Known Configuration Issues:**
-- [ ] **X4 Foundations Bindings** - Several NOT BOUND actions detected (2025-12-12)
-  - See: `X4_BINDINGS_TODO.md` for detailed analysis and proposed solutions
-  - Affected: Stop Engines, Travel Mode (variant), Scan Mode (variant), Long Range Scan (variant)
-  - Priority: Medium (does not block testing, workaround available)
-  - Status: 📋 Documented, pending review
+- [x] **X4 Foundations Bindings** - "NOT BOUND" actions resolved by adding variants (2025-12-22)
+  - Affected: Stop Engines, Travel Mode, Scan Mode, Long Range Scan
+  - Solution: Updated maps to include alternate action IDs
 
 **Status:**  **IN PROGRESS** (Day 2 of testing)
 
@@ -548,18 +548,13 @@ This is the most time-consuming phase, focused on:
   - Memory leak detection
   - Background model loading
 
-- [ ] **UX Polish**
+- [x] **UX Polish**
   - First-run setup wizard
   - Interactive tutorial system
   - Contextual help tooltips
   - Error message clarity
-  - JRiver startup: Replace 15-second countdown with async detection
-    - Current: Blocks for 15s with visible countdown
-    - Proposed: Silent background detection, continue if not found
-  - Wyoming ASR: Auto-start service if not running
-    - Current: Silent connection failures with no user feedback
-    - Proposed: Detect service down, attempt auto-start (like JRiver)
-    - Fallback: Clear error message with manual start instructions
+  - ✅ **JRiver startup:** Replace 15-second countdown with async detection (Implemented 2025-12-22)
+  - ✅ **Wyoming ASR:** Auto-start service if not running (Implemented & Verified 2025-12-22)
 
 - [ ] **Documentation**
   - User manual (comprehensive)

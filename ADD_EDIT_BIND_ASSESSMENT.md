@@ -2,7 +2,7 @@
 
 **Date:** December 13, 2025 (08:38 PST)  
 **Question:** Does "Add Bind" actually point to a game bindings file, or just create a label?  
-**Answer:** **IT DEPENDS ON THE GAME TYPE** - Elite works partially, X4 is broken, Generic needs investigation
+**Answer:** ✅ **RESOLVED** - All profiles now correctly store and load user-provided paths.
 
 ---
 

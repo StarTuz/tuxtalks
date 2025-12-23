@@ -96,10 +96,8 @@ def send_selection_request(title, items, page=1, timeout=180.0):
         
         client_socket.close()
         
-        return {
-            'index': response.get('index', -1),
-            'cancelled': response.get('cancelled', True)
-        }
+        # Return full response to handler
+        return response
         
     except socket.timeout:
         print(f"[IPC Client] ⏱️  Selection timed out after {timeout:.0f} seconds")

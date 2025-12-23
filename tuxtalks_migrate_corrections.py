@@ -7,6 +7,9 @@ to appropriate files:
 - personal_corrections.json (music artists, personal terms)
 - Game profile configs (game-specific terms)
 - config.json cleaned (settings only)
+
+Usage:
+    tuxtalks-admin migrate corrections
 """
 
 import json

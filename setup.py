@@ -2,7 +2,20 @@ from setuptools import setup, find_packages
 
 setup(
     name="tuxtalks",
-    version="1.0.29",
+    version="1.0.0b1",
+    description="A privacy-focused voice assistant for Linux gamers",
+    long_description=open("README.md").read(),
+    long_description_content_type="text/markdown",
+    author="Startux",
+    url="https://github.com/Startux/tuxtalks",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: End Users/Desktop",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: POSIX :: Linux",
+        "Topic :: Games/Entertainment",
+        "Topic :: Multimedia :: Sound/Audio :: Speech",
+    ],
     packages=find_packages(),
     py_modules=[
         "config", "model_manager", "tuxtalks", "launcher",
@@ -12,15 +25,15 @@ setup(
         "launcher_speech_tab", "launcher_player_tab", "launcher_games_tab",
         "launcher_corrections_tab", "launcher_input_tab", "launcher_vocabulary_tab",
         "launcher_training_tab", # NEW: Training tab for launcher
-        "launcher_packs_tab", "tuxtalks_install_pack",
-        "migrate_games_data",  # Phase 1d: Data folder reorganization
+        "launcher_packs_tab",
         "logger",  # Debug logging system
-        "tuxtalks_migrate_corrections",  # Corrections migration tool
         "ollama_handler",  # Ollama AI integration
         "voice_fingerprint",  # Voice learning system
         "player_interface",  # Player interface base class
         "voice_manager", "input_controller", "input_listener",  # Core components
         "local_library", "help_content",  # Utilities
+        "launcher_setup_wizard",  # NEW: First-run setup wizard
+        "tuxtalks_admin",  # NEW: Administrative toolbox
     ],
     include_package_data=True,
     package_data={
@@ -60,15 +73,10 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "tuxtalks=tuxtalks:main",  # Smart dispatcher (backward compat)
-            "tuxtalks-cli=tuxtalks:main_cli",  # Explicit CLI mode (no GUI detection)
-            "tuxtalks-config=launcher:main",  # Alias for launcher
-            "tuxtalks-gui=launcher:main",  # Renamed from tuxtalks-launcher
-            "tuxtalks-menu=runtime_menu:main",  # NEW: Runtime selection window
-            "tuxtalks-launcher=launcher:main",  # DEPRECATED: backward compat
-            "tuxtalks-install-pack=tuxtalks_install_pack:main",
-            "tuxtalks-migrate-data=migrate_games_data:main",
-            "tuxtalks-migrate-corrections=tuxtalks_migrate_corrections:main",  # NEW
+            "tuxtalks=tuxtalks:main",  # Primary entry point (Defaults to CLI)
+            "tuxtalks-gui=launcher:main",  # Main settings & configuration
+            "tuxtalks-menu=runtime_menu:main",  # Runtime selection window
+            "tuxtalks-admin=tuxtalks_admin:main",  # NEW: Toolbox for maintenance
         ],
     },
 )
