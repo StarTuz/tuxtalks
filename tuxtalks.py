@@ -579,7 +579,6 @@ def _run_cli(args):
         print("\n👋 Exiting...")
         
         # Shutdown assistant if active
-        nonlocal assistant
         if assistant:
             assistant.shutdown()
             

@@ -2640,8 +2640,8 @@ class LauncherGamesTab:
                 if not success:
                     self.root.after(0, lambda: messagebox.showerror(_("Error"), _("Macro execution failed (see console).")))
             except Exception as e:
-                print(f"Macro Execution Error: {e}")
-                self.root.after(0, lambda: messagebox.showerror("Error", f"Macro error: {e}"))
+                error_msg = str(e)
+                self.root.after(0, lambda: messagebox.showerror("Error", f"Macro error: {error_msg}"))
         threading.Thread(target=run_thread, daemon=True).start()
 
     def toggle_audio_path_state(self):

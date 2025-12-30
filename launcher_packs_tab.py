@@ -337,13 +337,14 @@ Content:
                 ))
                 
             except Exception as e:
-                # Error
-                self.frame.after(0, lambda: messagebox.showerror(
-                    "Installation Failed",
-                    f"Failed to install pack:\n\n{str(e)}",
-                    parent=self.frame
-                ))
-                
+                error_msg = str(e)
+                self.perform_gui_update(
+                    lambda: messagebox.showerror(
+                        "Error",
+                        f"Failed to install pack:\n\n{error_msg}",
+                        parent=self.root
+                    )
+                )
             finally:
                 # Close progress window
                 progress_window.destroy()

@@ -582,8 +582,9 @@ You can add any game via the 'Add' button in the Games tab.
              model_manager.download_and_extract_model(url, dest)
              self.root.after(0, lambda: [self.model_var.set(str(dest)), messagebox.showinfo("Success", f"Downloaded to {dest}")])
         except Exception as e:
-             self.root.after(0, lambda: messagebox.showerror("Error", str(e)))
-
+            error_msg = str(e)
+            self.root.after(0, lambda: messagebox.showerror("Error", error_msg))
+            self.root.after(0, lambda: self.status_var.set("Error generating bundle."))
     def delete_model(self):
         model_path = self.model_var.get()
         if model_path and messagebox.askyesno("Delete?", f"Delete {model_path}?"):

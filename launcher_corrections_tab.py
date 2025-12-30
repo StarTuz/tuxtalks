@@ -256,7 +256,8 @@ class LauncherCorrectionsTab:
                         self.root.after(0, lambda: self.test_btn.config(state="normal", text=_("🎤 Record")))
                         
             except Exception as e:
-                self.root.after(0, lambda: self.test_result_var.set(f"Error: {e}"))
+                error_msg = str(e)
+                self.root.after(0, lambda: self.test_result_var.set(f"Error: {error_msg}"))
             finally:
                 if not callback: 
                     self.root.after(0, lambda: self.test_btn.config(state="normal", text=_("🎤 Record")))

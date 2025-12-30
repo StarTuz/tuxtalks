@@ -251,8 +251,9 @@ class LauncherInputTab:
             self.root.after(0, self._rec_finished)
             
         except Exception as e:
-            print(f"Record error: {e}")
-            self.root.after(0, lambda: self.rec_status_var.set(f"Error: {e}"))
+            error_msg = str(e)
+            print(f"Record error: {error_msg}")
+            self.root.after(0, lambda: self.rec_status_var.set(f"Error: {error_msg}"))
             self.is_recording = False
             self.root.after(0, lambda: self.rec_btn.config(state=tk.NORMAL))
 
