@@ -989,14 +989,12 @@ class JRiverPlayer(MediaPlayer):
                 self.go_to_track(val)
             else:
                 # It's a database Key (or we have multiple files to play)
-                print(f"🎯 JRiver: Interpreting '{val}' as Database Key (or out of range index)")
+                print(f"🎯 JRiver: Interpreting inputs as Database Keys")
                 
-                # Start with the first key
-                self.send_mcws_command("Playback/PlayByKey", extra_params=f"Key={val}")
-                
-                # Add any subsequent keys to the playlist
-                for other_key in files[1:]:
-                    self.send_mcws_command("Playback/PlaylistAdd", extra_params=f"Key={other_key}")
+                # Join all keys and send in one command
+                # This matches the behavior of play_precise_album and is more efficient
+                keys_str = ",".join([str(f) for f in files])
+                self.send_mcws_command("Playback/PlayByKey", extra_params=f"Key={keys_str}")
                 
                 # Update status
                 time.sleep(0.5)
