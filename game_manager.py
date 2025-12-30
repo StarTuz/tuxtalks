@@ -531,7 +531,8 @@ class GameProfile:
 try:
     from parsers.x4_parser import X4XMLParser
     from parsers.ed_parser import EDXMLParser
-except ImportError:
+except ImportError as e:
+    print(f"⚠️ Warning: Failed to import parsers: {e}")
     X4XMLParser = None
     EDXMLParser = None
 
