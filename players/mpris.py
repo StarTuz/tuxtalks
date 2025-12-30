@@ -1,5 +1,6 @@
 import dbus
 import time
+import os
 from player_interface import MediaPlayer
 
 class MPRISPlayer(MediaPlayer):
