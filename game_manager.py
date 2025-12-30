@@ -1324,6 +1324,7 @@ class EliteDangerousProfile(GameProfile):
                 
         print(f"✅ ED Profile Loaded: {bound_count} actions bound.")
         self._merge_custom_commands()
+        return True
         
 
     def is_running(self):
