@@ -11,6 +11,8 @@ except ImportError:
     WyomingASR = None
 
 
+from .speechd_ng_tts import SpeechdNgTTS
+
 # Metadata Registry
 ENGINES = {
     "ASR": {
@@ -42,6 +44,15 @@ ENGINES = {
             "cons": ["Limited voices (installed manually)"],
             "experimental": False,
             "recommended": True
+        },
+        "speechd_ng": {
+            "class": SpeechdNgTTS,
+            "name": "SpeechD-NG",
+            "description": "Next-gen stateless speech daemon (Rust).",
+            "pros": ["Modern", "D-Bus Integration", "Stateless"],
+            "cons": ["Requires speechd-ng daemon"],
+            "experimental": False,
+            "recommended": False
         },
         "system": {
             "class": SystemTTS,

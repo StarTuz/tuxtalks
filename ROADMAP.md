@@ -1,6 +1,7 @@
 # TuxTalks Roadmap
 
 ## Project Vision
+
 TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts, designed with **Security by Design** principles to ensure it cannot be abused as a cheat engine while providing powerful voice integration for games and media players.
 
 ## Development Philosophy
@@ -20,6 +21,7 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 **Last Updated:** December 22, 2025
 
 ### Core Features
+
 - Voice control (wake word, ASR/TTS, PTT)
 - 4 media players (JRiver, Strawberry, Elisa, MPRIS)
 - 3 game integrations (Elite Dangerous, X4 Foundations, Generic framework)
@@ -28,6 +30,7 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 - In-app keybinding editor with macro recording
 
 ### Recent Stability Fixes
+
 - ✅ Data persistence (no profile loss)
 - ✅ Batch import optimization
 - ✅ Per-entry error handling
@@ -41,6 +44,7 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 - ✅ **JRiver Startup Fix** (Properly waits for MCWS service - Dec 22)
 - ✅ **Wyoming ASR Lifecycle** (Auto-start/stop with TuxTalks - Dec 22)
 - ✅ **Graceful Shutdown** (SIGINT handler for clean exit - Dec 22)
+- ✅ **speechd-ng Integration** (Optional D-Bus TTS backend - Dec 29)
 
 ---
 
@@ -51,6 +55,7 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 **Goal:** Verify TuxTalks cannot be abused as a cheat engine
 
 ### Security Requirements
+
 - [ ] **Process Isolation:** Voice commands cannot interact with arbitrary processes
 - [ ] **Sanitized Input:** All user input validated and escaped
 - [ ] **No Dynamic Code Execution:** Commands are predefined, not interpreted
@@ -58,6 +63,7 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 - [ ] **Audit Report:** Security assessment document published
 
 ### Verification Criteria
+
 1. Voice commands limited to registered games/processes only
 2. No arbitrary command injection possible
 3. No memory manipulation capabilities
@@ -70,6 +76,7 @@ TuxTalks is a voice-controlled assistant for Linux gamers and media enthusiasts,
 ### Completion Summary
 
 All five security requirements verified:
+
 - ✅ Process isolation (whitelist-only targeting)
 - ✅ Input sanitization (no injection vulnerabilities)
 - ✅ Dynamic code execution (zero instances in app)
@@ -77,6 +84,7 @@ All five security requirements verified:
 - ✅ File system access (properly bounded)
 
 **Deliverables:**
+
 - [SECURITY_AUDIT.md](file:///home/startux/code/tuxtalks/SECURITY_AUDIT.md) - Complete audit report
 - README.md updated with anti-cheat badges and FAQ
 - Documentation reflects security-first design
@@ -104,10 +112,10 @@ All five security requirements verified:
 - [x] VoiceAttack pack conversion guide
 
 **Target Developers:**
+
 - HCS VoicePacks
 - Community macro creators
 - Translation teams (internationalization)
-
 
 ### Step 1c: Macro Profile Architecture ✅ **COMPLETE**
 
@@ -127,6 +135,7 @@ All five security requirements verified:
 **Goal:** Clean up flat file structure for power users and developers
 
 **Current Structure** (`~/.local/share/tuxtalks/games/`):
+
 ```
 games/
 ├── elite_dangerous_commands.json
@@ -140,12 +149,14 @@ games/
 ```
 
 **Problems:**
+
 - Hard to find files for specific games
 - Backup files (.bak) clutter directory
 - No clear separation between games
 - Difficult for power users to manage manually
 
 **Proposed Structure:**
+
 ```
 games/
 ├── elite_dangerous/
@@ -169,6 +180,7 @@ games/
 ```
 
 **Benefits:**
+
 - ✅ Clean separation per game
 - ✅ Easy to backup/restore individual games
 - ✅ Developer-friendly for manual editing
@@ -176,6 +188,7 @@ games/
 - ✅ Backups go in proper `.bak` subdirectories
 
 **Implementation Tasks:**
+
 - [x] Design migration script (one-time conversion)
 - [x] Update GameProfile to use subdirectories
 - [x] Add backward compatibility for old structure
@@ -185,7 +198,6 @@ games/
 **Result:** Hierarchical structure implemented with full backward compatibility and migration tools
 
 **Priority:** Medium (quality-of-life for power users)
-
 
 ### Step 1b: Steam Deck Compatibility ✅ **BETA COMPLETE**
 
@@ -201,19 +213,20 @@ games/
 **Status:** ⚠️ **BETA** - Tested in Gamescope, untested on real Steam Deck hardware
 
 **What Works (Verified):**
+
 - ✅ Runs in Gamescope (Steam Deck compositor)
 - ✅ Installation script with compact models
 - ✅ Optimized config presets
 - ✅ Desktop Mode compatibility
 
 **Awaiting Validation:**
+
 - 📋 Gaming Mode integration
 - 📋 Battery life impact
 - 📋 Controller PTT implementation
 - 📋 SteamOS-specific quirks
 
 > **Note:** Arch Linux (Garuda) development ensures good compatibility. Community testing welcomed!
-
 
 ### Step 2: Hybrid CLI/GUI Selection Interface ✅ **COMPLETE**
 
@@ -247,6 +260,7 @@ games/
 **Goal:** Make TuxTalks accessible to non-English speakers
 
 **ASR/TTS Localization:**
+
 - [ ] Multi-language Vosk model support
   - [ ] Spanish, French, German, Italian (major EU languages)
   - [ ] Chinese, Japanese, Korean (Asian markets)
@@ -256,6 +270,7 @@ games/
 - [ ] Fallback to English for unsupported languages
 
 **UI Localization:**
+
 - [ ] Implement gettext/i18n framework
 - [ ] Extract all UI strings to translation files
 - [ ] Create translation templates (.pot files)
@@ -263,6 +278,7 @@ games/
 - [ ] Language selector in launcher preferences
 
 **Deliverables:**
+
 - Comprehensive i18n framework
 - 6 languages supported (EN/ES/UK/CY/DE/FR/AR with RTL)
 - Community translation workflow setup
@@ -270,12 +286,14 @@ games/
 - Language selector in preferences
 
 **Voice Command Localization:**
+
 - [ ] LAL pack language metadata support
 - [ ] Multi-language macro packs via LAL
 - [ ] Translation guide for pack creators
 - [ ] Example multilingual pack (Elite Dangerous)
 
 **Target Languages (Priority Order):**
+
 1. English (native)
 2. Spanish (large gaming market)
 3. German (HCS VoicePacks market)
@@ -284,23 +302,25 @@ games/
 6. Chinese (growing market)
 
 **Community Contribution:**
+
 - Leverage LAL framework for community translations
 - Translation teams can create language-specific packs
 - Documentation for translators
 
 **Priority:** High (Complete before release)
 
-
 ### Step 5: Ollama AI Integration ✅ **COMPLETE**
 
 **Goal:** Natural language command processing with local LLM
 
 **Why Before Beta:**
+
 - Avoids "AI added post-release" backlash
 - Fundamental UX transformation (rigid keywords → natural conversation)
 - Better to include early and iterate
 
 **Implementation:**
+
 - [x] Ollama integration module (`ollama_handler.py`) - 226 lines
 - [x] Intent extraction with structured output (JSON schema)
 - [x] Command processor integration (optional, fallback to keywords)
@@ -311,6 +331,7 @@ games/
 - [x] Testing and validation
 
 **Deliverable:**
+
 - ✅ Working Ollama integration
 - ✅ Natural language for music ("play some jazz")
 - ✅ Fast keywords for games (<100ms)
@@ -319,6 +340,7 @@ games/
 - ✅ 100% backward compatible
 
 **Results:**
+
 - **Test Session:** 4 commands, 100% success rate
 - **Confidence:** 0.95 average (excellent)
 - **Latency:** First query ~1s, subsequent <1s, cached <10ms
@@ -332,12 +354,14 @@ games/
 **Goal:** Self-improving voice recognition through automatic learning
 
 **Why Critical:**
+
 - Eliminates ASR accuracy pain points
 - Zero user training required
 - Personalized to each user's voice
 - Inspired by Google AI/Windows voice training
 
 **Implementation:**
+
 - [x] **Phase 1: Passive Learning** - Learn from successful Ollama corrections
   - [x] VoiceFingerprint class (`voice_fingerprint.py`) - 475 lines
   - [x]  Pattern storage & confidence scoring
@@ -355,6 +379,7 @@ games/
   - [x] Pattern management UI
 
 **Deliverable:**
+
 - ✅ Automatic voice learning (zero effort!)
 - ✅ Library-aware corrections
 - ✅ Self-improving accuracy over time
@@ -362,17 +387,19 @@ games/
 - ✅ Live tested with real corrections
 
 **Results:**
+
 - **Passive Learning:** 2 patterns learned automatically
   - Example: "field" → "filth", "hand" → "mango"
   - Confidence: 32% (improves with more occurrences)
 - **Manual Training:** Fully functional and tested
-  - Example: "them" → "filth", "right" → "filth" 
+  - Example: "them" → "filth", "right" → "filth"
   - Confidence: 55% (3x weighted for manual training)
   - 5-sample recording workflow working perfectly
 - **Performance:** <10ms learning overhead
 - **Privacy:** All data local, never uploaded
 
 **Bug Fixes (2025-12-11):**
+
 1. Fixed missing modules in setup.py (player_interface, voice_manager, etc.)
 2. Fixed translation function shadowing in launcher_training_tab.py
 3. Fixed parameter name mismatch in add_manual_correction() call
@@ -382,31 +409,33 @@ games/
 
 **Next Steps:** Beta testing and user feedback
 
-
 **Features:**
+
 - Natural language understanding ("play some beatles" vs "put on beatles music")
 - Intent extraction (play_artist, media_control, game_command, etc.)
 - Graceful fallback to keyword matching if Ollama unavailable/slow
 - Configurable (optional feature, not required dependency)
 
 **Models Supported:**
+
 - llama3.2:1b (500MB, ultra-fast, recommended default)
 - llama3.2:3b (2GB, better quality)
 - llama3.1:8b (4.7GB, high quality)
 
 **Performance Targets:**
+
 - Latency: <500ms (with 2s hard timeout)
 - RAM: 8GB minimum system requirement
 - Fallback: Instant keyword matching if timeout
 
 **Technical Approach:**
+
 - Optional dependency (extras_require)
 - Timeout protection for responsiveness
 - Response caching for common commands
 - Pre-warming option on startup
 
 **Priority:** Very High (Post Phase 1, Pre Beta)
-
 
 ---
 
@@ -417,6 +446,7 @@ games/
 > **Decision Point:** User & developer assessment of Ollama integration feasibility
 
 **Discussion Topics:**
+
 - Local LLM performance impact on gaming sessions
 - Memory footprint vs. conversational benefit
 - Anti-cheat compatibility concerns (dynamic behavior detection)
@@ -428,6 +458,7 @@ games/
   - Trade-off: Speed vs. accuracy for dual-purpose use (media + gaming)
 
 **Decision Framework:**
+
 1. **Integrate:** Add as optional feature (disabled by default, opt-in)
 2. **Defer:** Move to post-v1.0 roadmap based on community feedback
 3. **Reject:** Document rationale and maintain current command system
@@ -442,6 +473,7 @@ games/
 
 **Rationale:**
 This is the most time-consuming phase, focused on:
+
 - Generating the initial Voice Fingerprint data through real gameplay
 - Verifying all new systems (IPC, Ollama routing, Voice Learning) are stable
 - Testing across all three game integrations: Elite Dangerous, X4 Foundations, and X-Plane 12
@@ -449,6 +481,7 @@ This is the most time-consuming phase, focused on:
 - Identifying any edge cases or usability issues in real-world scenarios
 
 **Testing Scope:**
+
 - [ ] **Elite Dangerous** - Primary test platform (most mature integration)
   - [ ] Docking procedures with voice commands
   - [ ] Combat voice macros
@@ -464,6 +497,7 @@ This is the most time-consuming phase, focused on:
   - [ ] Radio communication macros
 
 **Success Criteria:**
+
 - [ ] 7+ days of continuous usage without critical failures
 - [ ] Voice Fingerprint contains 50+ learned patterns
 - [ ] No IPC communication failures
@@ -474,6 +508,7 @@ This is the most time-consuming phase, focused on:
 **Expected Duration:** 1-2 weeks (Real-world testing cannot be rushed)
 
 **Bugs Found & Fixed:**
+
 - [x] **BUG #001**: Selection mode console input appears unresponsive (2025-12-12)
   - Root cause: TTS blocking + lack of visual feedback
   - Fix: Added TTS interruption on console input + visual feedback
@@ -501,13 +536,14 @@ This is the most time-consuming phase, focused on:
   - Status: ✅ **VERIFIED** - Native input working correctly
 
 **Enhancements Made:**
+
 - [x] **Smart Command Routing** (2025-12-12)
   - Issue: Fast speech triggers keyword path, music commands could misroute to game
   - Solution: 3-tier routing based on game mode context
   - Behavior:
-    * Simple controls → Always keywords (fast)
-    * Complex queries + Gaming → Force Ollama (safe)
-    * Complex queries + Not Gaming → Ollama + keyword fallback (flexible)
+    - Simple controls → Always keywords (fast)
+    - Complex queries + Gaming → Force Ollama (safe)
+    - Complex queries + Not Gaming → Ollama + keyword fallback (flexible)
   - File: `core/command_processor.py` lines 44-232
   - Docs: `docs/Smart_Routing_Design.md`
   - Status: ✅ Implemented, ready for testing
@@ -522,20 +558,21 @@ This is the most time-consuming phase, focused on:
 - [x] **Hierarchical TreeView Menu** (2025-12-12)
   - Feature: Replaced flat Listbox with expandable TreeView for album/playlist browsing
   - Capability:
-    * Albums/playlists show with ▸ expand arrows
-    * Click arrow → Tracks appear inline (no menu replacement)
-    * Double-click track → Play specific track
-    * Pre-fetches all tracks for instant expansion
-    * 180-second timeout for browsing
-    * CLI drill-down mode preserved for voice users
+    - Albums/playlists show with ▸ expand arrows
+    - Click arrow → Tracks appear inline (no menu replacement)
+    - Double-click track → Play specific track
+    - Pre-fetches all tracks for instant expansion
+    - 180-second timeout for browsing
+    - CLI drill-down mode preserved for voice users
   - Files: `runtime_menu.py`, `core/selection_handler.py`, `ipc_server.py`, `ipc_client.py`
   - Docs: `HANDOFF_2025-12-12_TREEVIEW.md`
   - Status: ✅ **COMPLETE - Production Ready**
   - Known Issues:
-    * Cancel button says "timed out" (cosmetic, low priority)
-    * Some library data gaps (not code issue)
+    - Cancel button says "timed out" (cosmetic, low priority)
+    - Some library data gaps (not code issue)
 
 **Known Configuration Issues:**
+
 - [x] **X4 Foundations Bindings** - "NOT BOUND" actions resolved by adding variants (2025-12-22)
   - Affected: Stop Engines, Travel Mode, Scan Mode, Long Range Scan
   - Solution: Updated maps to include alternate action IDs
@@ -610,6 +647,7 @@ This is the most time-consuming phase, focused on:
 - [ ] Announce on relevant forums
 
 **Deliverables:**
+
 - Source tarball
 - Packaging scripts (verified)
 - Documentation (complete)
@@ -622,17 +660,20 @@ This is the most time-consuming phase, focused on:
 > **Rationale:** Focus on stable core before expansion
 
 ### Post-v1.0 (Based on Demand)
+
 - Star Citizen support
 - No Man's Sky support
 - Microsoft Flight Simulator support
 - Additional game integrations
 
 ### Community-Driven (Open Source)
+
 - Windows support (WSL)
 - macOS support
 - Cross-platform distribution
 
 ### Out of Scope (Current Roadmap)
+
 - ❌ Mobile companion app
 - ❌ Web dashboard
 - ❌ Home Assistant integration
@@ -640,6 +681,7 @@ This is the most time-consuming phase, focused on:
 - ❌ Plugin marketplace
 
 **Decision Criteria:** Re-evaluate post-v1.0 based on:
+
 - User requests (GitHub issues)
 - Maintenance burden
 - Anti-cheat compatibility
@@ -650,12 +692,14 @@ This is the most time-consuming phase, focused on:
 ## 📊 Success Metrics
 
 ### Pre-Release (Current)
+
 - ✅ 50+ voice commands
 - ✅ 4 media players
 - ✅ 3 game integrations
 - ✅ 47+ test profiles
 
 ### v1.0.0 Goals
+
 - 🎯 Security audit passed
 - 🎯 LAL framework shipped
 - 🎯 5+ distribution packages
@@ -663,6 +707,7 @@ This is the most time-consuming phase, focused on:
 - 🎯 Zero critical bugs
 
 ### Post-v1.0 Targets
+
 - 1,000+ pipx installs
 - 10+ third-party LAL packs
 - 5+ community contributors
@@ -673,9 +718,11 @@ This is the most time-consuming phase, focused on:
 ## 🤝 Contributing
 
 ### Current Priority: Security Audit
+
 We need security researchers to review the codebase for anti-cheat compliance.
 
 ### Future Contributions
+
 - LAL content packs (audio + macros)
 - Distribution packaging
 - Game integration parsers
@@ -706,6 +753,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [ ] Voice feedback customization (verbosity levels)
 
 ### Game Integration
+
 - [ ] Star Citizen support (bindings parser)
 - [ ] No Man's Sky support
 - [ ] Flight Simulator integration (MSFS 2020/2024)
@@ -717,6 +765,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 🚀 Medium-Term Roadmap (v1.2.x)
 
 ### Smart Features
+
 - [ ] Context awareness (recent commands influence parsing)
 - [ ] User behavior learning (frequently used commands)
 - [ ] Command aliases (user-defined shortcuts)
@@ -724,6 +773,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [ ] Batch command execution ("do X then Y")
 
 ### Extended Player Support
+
 - [ ] Rhythmbox native integration
 - [ ] Cantata (MPD frontend)
 - [ ] Kodi integration
@@ -731,6 +781,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [ ] Multi-zone audio support
 
 ### Platform Expansion
+
 - [ ] Flatpak distribution
 - [ ] AppImage distribution
 - [ ] AUR package (Arch Linux)
@@ -742,6 +793,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 🌟 Long-Term Vision (v2.0+)
 
 ### AI Integration
+
 - [ ] Local LLM integration (Ollama)
 - [ ] Conversational context (multi-turn dialogs)
 - [ ] Natural language playlist creation
@@ -749,6 +801,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [ ] Voice profile recognition (multi-user)
 
 ### Ecosystem
+
 - [ ] Mobile companion app (Android/iOS)
 - [ ] Web dashboard (remote control)
 - [ ] Home Assistant integration
@@ -756,6 +809,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [ ] Plugin marketplace
 
 ### Advanced Game Control
+
 - [ ] Visual game state detection (OCR)
 - [ ] AI-powered macro optimization
 - [ ] Cross-game command standardization
@@ -763,6 +817,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 - [ ] Streaming integration (OBS control)
 
 ### Platform Support
+
 - [ ] Windows (WSL integration)
 - [ ] macOS (via Homebrew)
 - [ ] Steam Deck optimization
@@ -773,16 +828,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 🐛 Known Issues & Tech Debt
 
 ### High Priority
+
 - [ ] ALSA warning spam (harmless but noisy)
 - [ ] Wyoming occasional connection drops
 - [ ] Large library initial scan time
 
 ### Medium Priority
+
 - [ ] Profile name display mapping complexity
 - [ ] Wizard field label clarity
 - [ ] Memory leak in long sessions (potential)
 
 ### Low Priority
+
 - [ ] Theme switching requires restart
 - [ ] Some debug prints in production
 - [ ] XML parsing could use schema validation
@@ -792,18 +850,21 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 📊 Success Metrics
 
 **Current:**
+
 - ~50 supported voice commands
 - 4 player integrations
 - 3 game integrations (+ generic framework)
 - 47+ test profiles managed
 
 **v1.1 Targets:**
+
 - 100+ voice commands
 - 6 player integrations
 - 5 dedicated game integrations
 - 1000+ installs
 
 **v2.0 Targets:**
+
 - LLM-powered natural language
 - 10+ player integrations
 - 10+ dedicated games
@@ -815,15 +876,18 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 🤝 Community & Contribution
 
 ### Contributing
+
 See CONTRIBUTING.md for guidelines.
 
 ### Development Priorities
+
 1. **Stability** over features
 2. **User experience** over technical complexity
 3. **Documentation** before major refactors
 4. **Testing** required for critical paths
 
 ### Architecture Principles
+
 - Modular design (easy to add players/games)
 - Zero external dependencies for core (Python stdlib only)
 - Graceful degradation (features fail independently)
@@ -838,6 +902,7 @@ See CONTRIBUTING.md for guidelines.
 **Major Releases (vX.0.0):** Annually (breaking changes, redesigns)
 
 **Next Planned:**
+
 - **v1.1.0** - Q1 2025 (Performance + UX polish)
 - **v1.2.0** - Q2 2025 (Smart features + platform expansion)
 - **v2.0.0** - Q4 2025 (AI integration + ecosystem)
@@ -847,12 +912,14 @@ See CONTRIBUTING.md for guidelines.
 ## 💡 Feature Requests
 
 **How to Request:**
+
 1. Check existing roadmap first
 2. Open GitHub issue with `[Feature Request]` tag
 3. Describe use case and priority
 4. Be open to alternative solutions
 
 **Evaluation Criteria:**
+
 - Aligns with project vision
 - Benefits majority of users
 - Technically feasible

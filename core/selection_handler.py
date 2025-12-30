@@ -149,28 +149,35 @@ class SelectionHandler:
                     # User selected a child (track)
                     print(f"[Selection] GUI selection: parent={idx}, child={child_idx}")
                     # Handle track selection from album/playlist
+                    # Play this track AND all subsequent tracks (like clicking a track in JRiver's GUI)
                     parent_item = self.context_items[idx]
                     if isinstance(parent_item, tuple) and len(parent_item) > 2:
                         item_type = parent_item[2]
                         item_value = parent_item[1]
                         
-                        # Get the track key from pre-fetched data
+                        # Get all tracks from this album/playlist
                         if item_type == "album" and hasattr(self.player, 'get_album_tracks'):
                             tracks = self.player.get_album_tracks(item_value)
                             if child_idx < len(tracks):
-                                track_title, track_key, track_num = tracks[child_idx]
-                                # Play this track
-                                print(f"🎵 Playing track: {track_title}")
+                                # Get selected track and all subsequent tracks
+                                remaining_tracks = tracks[child_idx:]
+                                track_title = remaining_tracks[0][0]  # First track's title
+                                track_keys = [t[1] for t in remaining_tracks]  # All track keys from selected onwards
+                                
+                                print(f"🎵 Playing track: {track_title} (+ {len(track_keys) - 1} more)")
                                 if hasattr(self.player, 'play_files'):
-                                    self.player.play_files([track_key])
+                                    self.player.play_files(track_keys)
                         elif item_type == "playlist" and hasattr(self.player, 'get_playlist_tracks'):
                             tracks = self.player.get_playlist_tracks(item_value)
                             if child_idx < len(tracks):
-                                track_title, track_key = tracks[child_idx]
-                                # Play this track
-                                print(f"🎵 Playing track: {track_title}")
+                                # Get selected track and all subsequent tracks
+                                remaining_tracks = tracks[child_idx:]
+                                track_title = remaining_tracks[0][0]  # First track's title
+                                track_keys = [t[1] for t in remaining_tracks]  # All track keys from selected onwards
+                                
+                                print(f"🎵 Playing track: {track_title} (+ {len(track_keys) - 1} more)")
                                 if hasattr(self.player, 'play_files'):
-                                    self.player.play_files([track_key])
+                                    self.player.play_files(track_keys)
                     
                     self.clear()
                 else:
