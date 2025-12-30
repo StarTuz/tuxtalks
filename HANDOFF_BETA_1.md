@@ -58,6 +58,22 @@
 | `verify_speechd_ng.py` | Verification script (untracked) |
 | `docs/SPEECHD_NG_INTEGRATION_ANALYSIS.md` | Integration assessment |
 
+### CI/CD Pipeline Fixes
+
+**Goal:** Ensure a stable, green CI pipeline for reliable releases.
+
+**Resoution:**
+
+- **Build:** Fixed missing locale files by updating `.gitignore` and force-adding `.mo` files.
+- **Linting:** Resolved `flake8` errors (`F821`, `F824`) and excluded `build/` artifacts.
+- **Testing:**
+  - Enabled `xvfb` for headless UI testing.
+  - Fixed logic bug in `game_manager.py` (missing `return True` in `load_bindings`).
+  - Corrected test assertions in `test_ed_parser.py`.
+  - Mocked `piper` binary and `defusedxml` dependency for CI environment.
+
+**Status:** 🟢 **CI GREEN**
+
 ---
 
 ## ⏭️ Next Steps
